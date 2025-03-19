@@ -1,0 +1,74 @@
+[
+    {
+        "id del pictograma de ARASAAC": 2619,
+        "nombre del pictograma de ARASAAC": [
+            "zanahoria"
+        ],
+        "traduccion al argentino del nombre del pictograma de ARASAAC": [
+            "zanahoria"
+        ],
+        "contextos": {
+            "gastronomico": [
+                "vegetal naranja", 
+                "hortaliza de raíz", 
+                "ingrediente para ensaladas", 
+                "verdura para guisos", 
+                "rallar zanahoria", 
+                "zanahoria rallada", 
+                "bastones de zanahoria", 
+                "verdura cruda", 
+                "verdura cocida"
+            ],
+            "categoria": [
+                "vegetal",
+                "verdura",
+                "ingrediente",
+                "alimento"
+            ],
+            "usos_culinarios": [
+                "para ensaladas",
+                "para guisos",
+                "como guarnición",
+                "para sopa",
+                "para pure"
+            ]
+        }
+    },
+    {
+        "id del pictograma de ARASAAC": 38496,
+        "nombre del pictograma de ARASAAC": [
+            "tarta de zanahoria"
+        ],
+        "traduccion al argentino del nombre del pictograma de ARASAAC": [
+            "carrot cake"
+        ],
+        "contextos": {
+            "gastronomico": [
+                "postre", 
+                "pastel", 
+                "torta", 
+                "bizcochuelo", 
+                "dulce", 
+                "merienda", 
+                "café con torta", 
+                "pastelería", 
+                "postre casero", 
+                "torta con crema", 
+                "torta con frosting"
+            ],
+            "categoria": [
+                "postre",
+                "dulce",
+                "reposteria",
+                "torta"
+            ],
+            "usos_culinarios": [
+                "para merienda",
+                "para cumpleaños",
+                "para postre",
+                "para eventos",
+                "con té o café"
+            ]
+        }
+    }
+]
