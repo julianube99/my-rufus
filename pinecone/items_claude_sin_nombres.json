@@ -831,9 +831,7 @@
         "id del pictograma de ARASAAC": 7201,
         "nombre del pictograma": [
             "pancho",
-            "pancho",
-            "perrito"
-        ]
+            "hotdog"        ]
     },
     {
         "id del pictograma de ARASAAC": 36501,
@@ -972,6 +970,12 @@
         ]
     },
     {
+        "id del pictograma de ARASAAC": 4967,
+        "nombre del pictograma": [
+            "omelette"
+        ]
+    },
+    {
         "id del pictograma de ARASAAC": 38114,
         "nombre del pictograma": [
             "torta frita"
@@ -1060,6 +1064,12 @@
         ]
     },
     {
+        "id del pictograma de ARASAAC": 9055,
+        "nombre del pictograma": [
+            "budin de pan"
+        ]
+    },
+    {
         "id del pictograma de ARASAAC": 38915,
         "nombre del pictograma": [
             "focaccia"
@@ -1118,6 +1128,42 @@
         "id del pictograma de ARASAAC": 3262,
         "nombre del pictograma": [
             "churros"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 13034,
+        "nombre del pictograma": [
+            "arándanos"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 10224,
+        "nombre del pictograma": [
+            "coco"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 8684,
+        "nombre del pictograma": [
+            "rodaja de limón"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 2468,
+        "nombre del pictograma": [
+            "durazno"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 2400,
+        "nombre del pictograma": [
+            "frutilla"
+        ]
+    },
+    {
+        "id del pictograma de ARASAAC": 2906,
+        "nombre del pictograma": [
+            "frutos rojos"
         ]
     }
 ]
