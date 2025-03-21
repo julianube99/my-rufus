@@ -529,24 +529,13 @@
     {
         "id del pictograma de ARASAAC": 29226,
         "nombre del pictograma": [
-            "torta de chocolate",
-            "lingote de chocolate"
-        ],
+            "torta de chocolate"        ],
         "definicion": ""
     },
     {
-        "id del pictograma de ARASAAC": 29226,
+        "id del pictograma de ARASAAC": 29230,
         "nombre del pictograma": [
-            "torta de chocolate",
-            "lingote de chocolate"
-        ],
-        "definicion": ""
-    },
-    {
-        "id del pictograma de ARASAAC": 29226,
-        "nombre del pictograma": [
-            "torta de chocolate",
-            "lingote de chocolate"
+            "torta de vainilla"
         ],
         "definicion": ""
     },
@@ -581,6 +570,13 @@
             "crepes, crep"
         ],
         "definicion": "Tortas planas y redondas preparadas con una masa líquida a base de harina, huevos y leche, cocidas en sartén, que pueden servirse con diversos acompañamientos."
+    },
+    {
+        "id del pictograma de ARASAAC": 8042,
+        "nombre del pictograma": [
+            "bizochuelo"
+        ],
+        "definicion": "Bizcocho de chocolate denso y húmedo, con textura entre pastel y galleta, a veces con nueces, servido generalmente en forma de cuadrados."
     },
     {
         "id del pictograma de ARASAAC": 38503,
