@@ -574,9 +574,8 @@
     {
         "id del pictograma de ARASAAC": 8042,
         "nombre del pictograma": [
-            "bizochuelo"
-        ],
-        "definicion": "Bizcocho de chocolate denso y húmedo, con textura entre pastel y galleta, a veces con nueces, servido generalmente en forma de cuadrados."
+            "bizcochuelo"
+        ]    
     },
     {
         "id del pictograma de ARASAAC": 38503,
@@ -592,13 +591,6 @@
             "helado"
         ],
         "definicion": "Postre congelado hecho a base de leche, crema o jugo de frutas, con azúcar y diversos sabores, que se consume generalmente como postre o refrigerio."
-    },
-    {
-        "id del pictograma de ARASAAC": 7216,
-        "nombre del pictograma": [
-            "postre"
-        ],
-        "definicion": "Plato dulce que se sirve al final de una comida, puede ser frío o caliente y elaborado con diversos ingredientes como frutas, chocolate, cremas, etc."
     },
     {
         "id del pictograma de ARASAAC": 34763,
@@ -1062,7 +1054,7 @@
     {
         "id del pictograma de ARASAAC": 9055,
         "nombre del pictograma": [
-            "budin de pan"
+            "budín de pan"
         ]
     },
     {

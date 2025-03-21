@@ -4,6 +4,11 @@ from openai import OpenAI
 from typing import List, Dict, Any
 import time
 from pinecone import Pinecone
+from dotenv import load_dotenv
+
+
+
+load_dotenv()
 
 # Configuración de credenciales (recomendado usar variables de entorno)
 PINECONE_API_KEY = os.environ.get("PINECONE_API")
@@ -24,11 +29,7 @@ def conectar_a_indice(nombre_indice=None):
         nombre_indice = INDEX_NAME
         
     try:
-        # Verificar que el índice existe
-        if nombre_indice not in pc.list_indexes().names():
-            print(f"⚠️ El índice {nombre_indice} no existe. Por favor, verifica el nombre.")
-            return None
-            
+           
         print(f"📋 Conectando al índice existente {nombre_indice}...")
         index = pc.Index(nombre_indice)
         
@@ -57,123 +58,62 @@ def generar_embedding(texto: str) -> List[float]:
     )
     return response.data[0].embedding
 
+
 def insertar_pictogramas(datos: List[Dict[str, Any]], index):
-    """Inserta pictogramas en el índice dentro del namespace especificado."""
+    """Inserta pictogramas en el índice dentro del namespace especificado (1 vector por pictograma)."""
     vectores = []
     total_pictogramas = len(datos)
     
-    print(f"🚀 Iniciando procesamiento de {total_pictogramas} pictogramas para el namespace '{NAMESPACE}'...")
+    print(f"🚀 Procesando {total_pictogramas} pictogramas para el namespace '{NAMESPACE}'...")
     print("-" * 60)
     
-    inicio_tiempo_total = time.time()
-    count_vectores = 0
-    
     for idx, pictograma in enumerate(datos):
-        # Verificar si el pictograma tiene ID
         if "id del pictograma de ARASAAC" not in pictograma:
             print(f"⚠️ Pictograma en índice {idx} no tiene ID de ARASAAC. Saltando...")
             continue
-            
+        
         id_pictograma = str(pictograma["id del pictograma de ARASAAC"])
         
-        # Asegurarse de que "nombre del pictograma" sea una lista
-        if "nombre del pictograma" not in pictograma:
-            pictograma["nombre del pictograma"] = [f"Pictograma {id_pictograma}"]
-        elif not isinstance(pictograma["nombre del pictograma"], list):
-            pictograma["nombre del pictograma"] = [str(pictograma["nombre del pictograma"])]
+        # Asegurarse de que el nombre sea lista
+        nombres = pictograma.get("nombre del pictograma", [])
+        if not isinstance(nombres, list):
+            nombres = [str(nombres)]
         
-        print(f"[{idx+1}/{total_pictogramas}] Procesando pictograma ID: {id_pictograma}")
-        print(f"    Nombres: {', '.join(pictograma['nombre del pictograma'])}")
+        nombres_str = ", ".join(nombres)
+        definicion = pictograma.get("definicion", "")
         
-        # Preparar texto para el embedding principal
-        texto_completo = f"Pictograma: {', '.join(pictograma['nombre del pictograma'])}"
-        if pictograma.get("definicion"):
-            texto_completo += f". {pictograma['definicion']}"
+        texto = f'nombre del pictograma: {nombres_str}'
+        if definicion:
+            texto += f'\ndefinicion: {definicion}'
         
-        print(f"    Texto para embedding: {texto_completo[:80]}...")
+        print(f"[{idx+1}/{total_pictogramas}] Generando embedding para ID {id_pictograma}")
+        embedding = generar_embedding(texto)
         
-        inicio_tiempo = time.time()
-        embedding = generar_embedding(texto_completo)
-        tiempo_embedding = time.time() - inicio_tiempo
-        
-        # Metadatos para el vector
         metadata = {
             "id": id_pictograma,
-            "nombres": pictograma["nombre del pictograma"],
-            "definicion": pictograma.get("definicion", "")
+            "nombre del pictograma": nombres_str
+            
         }
         
-        # Agregar a la lista de vectores
         vectores.append({
             "id": id_pictograma,
             "values": embedding,
             "metadata": metadata
         })
-        count_vectores += 1
         
-        print(f"    ✓ Embedding principal generado en {tiempo_embedding:.2f} segundos")
-        
-        # También vectorizar cada nombre alternativo individualmente
-        nombres = pictograma["nombre del pictograma"]
-        print(f"    Generando {len(nombres)} embeddings adicionales para nombres alternativos...")
-        
-        for i, nombre in enumerate(nombres):
-            nombre_id = f"{id_pictograma}_nombre_{i}"
-            embedding_nombre = generar_embedding(nombre)
-            
-            vectores.append({
-                "id": nombre_id,
-                "values": embedding_nombre,
-                "metadata": metadata
-            })
-            count_vectores += 1
-            
-            print(f"        ✓ Embedding para '{nombre}' generado")
-        
-        print(f"    Total: {len(nombres) + 1} embeddings generados para pictograma ID {id_pictograma}")
-        print("-" * 60)
-        
-        # Insertar en lotes de 100 si alcanzamos el tamaño del lote
+        # Enviar en lotes de 100
         if len(vectores) >= 100:
-            batch = vectores[:100]
-            vectores = vectores[100:]
-            
-            print(f"🔄 Insertando lote de {len(batch)} vectores en namespace '{NAMESPACE}'...")
-            inicio_tiempo = time.time()
-            
-            # Insertar en el namespace específico
-            index.upsert(
-                vectors=batch,
-                namespace=NAMESPACE
-            )
-            
-            tiempo_insercion = time.time() - inicio_tiempo
-            print(f"✅ Lote insertado en {tiempo_insercion:.2f} segundos")
-            print("-" * 60)
+            print(f"🔄 Insertando lote de 100 vectores...")
+            index.upsert(vectors=vectores, namespace=NAMESPACE)
+            vectores = []
     
-    # Insertar vectores restantes (si hay menos de 100)
+    # Insertar lote final
     if vectores:
-        print(f"🔄 Insertando lote final de {len(vectores)} vectores en namespace '{NAMESPACE}'...")
-        inicio_tiempo = time.time()
-        
-        # Insertar en el namespace específico
-        index.upsert(
-            vectors=vectores,
-            namespace=NAMESPACE
-        )
-        
-        tiempo_insercion = time.time() - inicio_tiempo
-        print(f"✅ Lote final insertado en {tiempo_insercion:.2f} segundos")
+        print(f"🔄 Insertando lote final de {len(vectores)} vectores...")
+        index.upsert(vectors=vectores, namespace=NAMESPACE)
     
-    tiempo_total = time.time() - inicio_tiempo_total
-    print("-" * 60)
-    print(f"🎉 Proceso completado en {tiempo_total:.2f} segundos")
-    print(f"🔢 Total de vectores generados e insertados en namespace '{NAMESPACE}': {count_vectores}")
-    
-    # Obtener estadísticas actualizadas del índice
-    stats = index.describe_index_stats()
-    if NAMESPACE in stats.get('namespaces', {}):
-        print(f"📊 Vectores actuales en namespace '{NAMESPACE}': {stats['namespaces'][NAMESPACE]['vector_count']}")
+    print("🎉 Inserción finalizada.")
+
 
 def buscar_pictograma(consulta: str, index_name=None, top_k: int = 5):
     """
@@ -184,74 +124,61 @@ def buscar_pictograma(consulta: str, index_name=None, top_k: int = 5):
     
     # Determinar el índice a usar
     if index_name is None:
-        # Usar el índice global
         index = conectar_a_indice(INDEX_NAME)
     elif isinstance(index_name, str):
-        # Es el nombre de un índice, necesitamos conectarnos
         index = conectar_a_indice(index_name)
     else:
-        # Asumimos que ya es un objeto índice
         index = index_name
     
     if index is None:
         print("❌ No se pudo conectar al índice.")
         return []
     
-    # Enriquecer la consulta con contexto gastronómico
     consulta_enriquecida = f"Plato o postre gastronómico: {consulta}. Buscar equivalentes y similares."
     print(f"🔍 Consulta enriquecida: '{consulta_enriquecida}'")
     
-    # Generar embedding para la consulta
     inicio_tiempo = time.time()
     embedding_consulta = generar_embedding(consulta_enriquecida)
     tiempo_embedding = time.time() - inicio_tiempo
     print(f"✓ Embedding de consulta generado en {tiempo_embedding:.2f} segundos")
     
-    # Realizar búsqueda en Pinecone - en el namespace específico
     inicio_tiempo = time.time()
     resultados = index.query(
         vector=embedding_consulta,
         top_k=top_k,
         include_metadata=True,
-        namespace=NAMESPACE  # Especificar el namespace para la búsqueda
+        namespace=NAMESPACE
     )
     tiempo_busqueda = time.time() - inicio_tiempo
     print(f"✓ Búsqueda completada en {tiempo_busqueda:.2f} segundos en namespace '{NAMESPACE}'")
     
-    # Procesar y devolver resultados
     pictogramas_encontrados = []
-    ids_unicos = set()  # Para evitar duplicados
+    ids_unicos = set()
     
     print(f"📋 Encontrados {len(resultados['matches'])} coincidencias (antes de eliminar duplicados)")
     
     for match in resultados["matches"]:
         id_original = match["metadata"]["id"]
         
-        # Evitar duplicados (diferentes nombres del mismo pictograma)
         if id_original in ids_unicos:
             continue
-            
         ids_unicos.add(id_original)
         
-        # Incluir toda la información disponible en los metadatos
         pictograma_info = {
             "id del pictograma de ARASAAC": int(id_original),
-            "score": match["score"]  # Puntuación de similitud (0-1)
+            "score": match["score"]
         }
         
-        # Añadir campos de metadatos si existen
-        for campo in ["nombres", "definicion", "categoria", "subcategoria", "equivalentes"]:
+        # ✅ Agregamos explícitamente los metadatos que estamos usando
+        for campo in ["nombre del pictograma", "definicion", "categoria", "subcategoria", "equivalentes"]:
             if campo in match["metadata"]:
                 pictograma_info[campo] = match["metadata"][campo]
-        
-        # Mantener compatibilidad con "nombre del pictograma"
-        if "nombres" in pictograma_info and "nombre del pictograma" not in pictograma_info:
-            pictograma_info["nombre del pictograma"] = pictograma_info["nombres"]
         
         pictogramas_encontrados.append(pictograma_info)
     
     print(f"✅ Resultados únicos encontrados: {len(pictogramas_encontrados)}")
     return pictogramas_encontrados
+
 
 def mostrar_resultados(resultados):
     """Muestra los resultados de forma amigable"""
@@ -265,20 +192,31 @@ def mostrar_resultados(resultados):
     for i, resultado in enumerate(resultados):
         print(f"{i+1}. ID: {resultado['id del pictograma de ARASAAC']}")
         
+        # Mostrar nombre del pictograma
         if "nombre del pictograma" in resultado:
-            if isinstance(resultado["nombre del pictograma"], list):
-                print(f"   Nombres: {', '.join(resultado['nombre del pictograma'])}")
-            else:
-                print(f"   Nombre: {resultado['nombre del pictograma']}")
-                
+            print(f"   Nombre(s): {resultado['nombre del pictograma']}")
+        
+        # Mostrar definición
         if "definicion" in resultado:
             print(f"   Definición: {resultado['definicion']}")
-            
-        for campo in ["categoria", "subcategoria", "equivalentes"]:
-            if campo in resultado and resultado[campo]:
-                print(f"   {campo.capitalize()}: {resultado[campo]}")
-                
+        
+        # Mostrar categoría y subcategoría si existen
+        if "categoria" in resultado and resultado["categoria"]:
+            print(f"   Categoría: {resultado['categoria']}")
+        if "subcategoria" in resultado and resultado["subcategoria"]:
+            print(f"   Subcategoría: {resultado['subcategoria']}")
+        
+        # Mostrar equivalentes si hay
+        if "equivalentes" in resultado and resultado["equivalentes"]:
+            if isinstance(resultado["equivalentes"], list):
+                equivalentes_str = ", ".join(resultado["equivalentes"])
+            else:
+                equivalentes_str = resultado["equivalentes"]
+            print(f"   Equivalentes: {equivalentes_str}")
+        
+        # Mostrar score
         print(f"   Score: {resultado['score']:.4f}")
+        print(f"Nombre(s): {resultado['nombre del pictograma']}")
         print("-" * 40)
 
 def cargar_datos(ruta_archivo):

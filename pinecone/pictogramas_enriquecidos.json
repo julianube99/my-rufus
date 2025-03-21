@@ -1,0 +1,2919 @@
+[
+  {
+    "id del pictograma de ARASAAC": 1,
+    "nombre del pictograma": [
+      "lomito, lomo, sanguche de carne, sanguche de bife"
+    ],
+    "definicion": "El lomito es un corte de carne de ternera muy tierno y jugoso, proveniente de la parte baja de la espalda del animal. Se caracteriza por su sabor intenso y su textura suave.",
+    "categoria": "carnes",
+    "subcategoria": "vacuna",
+    "origen": "Argentina",
+    "tipo_de_coccion": "a la parrilla",
+    "ingredientes": [
+      "lomo de ternera"
+    ],
+    "forma_de_servir": "generalmente se sirve en sándwiches con diversos ingredientes como lechuga, tomate, mayonesa y jamón",
+    "equivalentes": [
+      "lomo de res"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 31082,
+    "nombre del pictograma": [
+      "camarones fritos",
+      "camarones apanados",
+      "langostinos apanados"
+    ],
+    "definicion": "Los camarones fritos son camarones crujientes y dorados por fuera, pero jugosos y tiernos por dentro. Se suelen rebozar en harina y huevo antes de ser fritos en aceite caliente.",
+    "categoria": "mariscos",
+    "subcategoria": "camarones",
+    "origen": "Internacional",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "camarones",
+      "harina",
+      "huevo"
+    ],
+    "forma_de_servir": "se sirven calientes como aperitivo o plato principal, acompañados de salsas como salsa tártara o salsa de cocktail",
+    "equivalentes": [
+      "camarones rebozados"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 3005,
+    "nombre del pictograma": [
+      "canelones"
+    ],
+    "definicion": "Los canelones son una pasta rellena de carne picada, salsa de tomate y queso, enrollada en forma de tubo. Se hornean con bechamel y queso rallado por encima, creando un plato delicioso y reconfortante.",
+    "categoria": "pastas",
+    "subcategoria": "rellenas",
+    "origen": "Italia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "pasta de canelones",
+      "carne picada",
+      "salsa de tomate",
+      "queso",
+      "bechamel"
+    ],
+    "forma_de_servir": "se sirven calientes, recién horneados, acompañados de ensalada verde",
+    "equivalentes": [
+      "cannelloni"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 31081,
+    "nombre del pictograma": [
+      "nuggets de pescado",
+      "pescado frito"
+    ],
+    "definicion": "Los nuggets de pescado son trozos de pescado empanizados y fritos, con una textura crujiente por fuera y tierna por dentro. Son una opción popular para los amantes de los frutos del mar.",
+    "categoria": "mariscos",
+    "subcategoria": "pescado",
+    "origen": "Internacional",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "filete de pescado",
+      "pan rallado",
+      "huevo"
+    ],
+    "forma_de_servir": "se sirven calientes como aperitivo o plato principal, acompañados de salsa tártara o limón",
+    "equivalentes": [
+      "fingers de pescado"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38993,
+    "nombre del pictograma": [
+      "sushi"
+    ],
+    "definicion": "El sushi es un plato japonés compuesto por arroz sazonado con vinagre, relleno de pescado crudo, mariscos o vegetales, y envuelto en alga nori. Se sirve con salsa de soja, wasabi y jengibre encurtido.",
+    "categoria": "platos principales",
+    "subcategoria": "japonés",
+    "origen": "Japón",
+    "tipo_de_coccion": "crudo",
+    "ingredientes": [
+      "arroz",
+      "pescado crudo",
+      "alga nori",
+      "salsa de soja"
+    ],
+    "forma_de_servir": "se sirve frío en piezas individuales, acompañado de wasabi y jengibre encurtido",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38674,
+    "nombre del pictograma": [
+      "wrap",
+      "fajita"
+    ],
+    "definicion": "Un wrap es un tipo de comida rápida consistente en enrollar diferentes ingredientes en una tortilla de harina o maíz. Puede contener una variedad de ingredientes como carne, verduras, queso y salsas.",
+    "categoria": "platos principales",
+    "subcategoria": "comida rápida",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "tortilla de harina o maíz",
+      "carne",
+      "verduras",
+      "queso",
+      "salsas"
+    ],
+    "forma_de_servir": "enrollado y cortado en porciones",
+    "equivalentes": [
+      "burrito"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 25606,
+    "nombre del pictograma": [
+      "quesadillas"
+    ],
+    "definicion": "Las quesadillas son un platillo mexicano que consiste en una tortilla de maíz o harina rellena de queso y otros ingredientes como carne, verduras o frijoles. Se cocinan en una sartén hasta que el queso se derrite y la tortilla se dora.",
+    "categoria": "platos principales",
+    "subcategoria": "comida mexicana",
+    "origen": "México",
+    "tipo_de_coccion": "sartén",
+    "ingredientes": [
+      "tortilla de maíz o harina",
+      "queso",
+      "carne",
+      "verduras",
+      "frijoles"
+    ],
+    "forma_de_servir": "cortadas en triángulos y acompañadas de salsa y guacamole",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36352,
+    "nombre del pictograma": [
+      "berenjenas"
+    ],
+    "definicion": "Las berenjenas son un vegetal de forma alargada y color morado oscuro que se puede consumir de diversas formas, ya sea cocidas, asadas, fritas o al horno. Son ricas en fibra, vitaminas y minerales.",
+    "categoria": "verduras",
+    "subcategoria": "vegetales",
+    "origen": "India",
+    "tipo_de_coccion": "varios (cocidas, asadas, fritas, al horno)",
+    "ingredientes": [
+      "berenjenas"
+    ],
+    "forma_de_servir": "según la preparación, pueden servirse como acompañamiento o como plato principal",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36015,
+    "nombre del pictograma": [
+      "untable de garbanzos, hummus"
+    ],
+    "definicion": "El untable de garbanzos es una pasta suave hecha a base de garbanzos cocidos, aceite de oliva, ajo, limón y especias. Es un alimento saludable y versátil que se puede untar en pan, galletas o utilizar como dip para verduras.",
+    "categoria": "aperitivos",
+    "subcategoria": "untables",
+    "origen": "Mediterráneo",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "garbanzos cocidos",
+      "aceite de oliva",
+      "ajo",
+      "limón",
+      "especias"
+    ],
+    "forma_de_servir": "untado en pan o galletas, o como dip para verduras",
+    "equivalentes": [
+      "hummus"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 32472,
+    "nombre del pictograma": [
+      "tarta de jamon y queso"
+    ],
+    "definicion": "La tarta de jamón y queso es un plato horneado que consiste en una base de masa quebrada o hojaldre rellena de jamón, queso, huevo y crema. Es un plato clásico de la cocina salada que se puede servir caliente o frío.",
+    "categoria": "platos principales",
+    "subcategoria": "tartas saladas",
+    "origen": "Francia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "masa quebrada o hojaldre",
+      "jamón",
+      "queso",
+      "huevo",
+      "crema"
+    ],
+    "forma_de_servir": "en porciones individuales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 5532,
+    "nombre del pictograma": [
+      "paella"
+    ],
+    "definicion": "La paella es un plato tradicional español, típico de la región de Valencia, que consiste en arroz cocido con diversas carnes, mariscos, verduras y especias, todo cocinado en una paellera. Es uno de los platos más representativos de la gastronomía española.",
+    "categoria": "plato principal",
+    "subcategoria": "arroz",
+    "origen": "España",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "arroz",
+      "pollo",
+      "conejo",
+      "judías verdes",
+      "tomate",
+      "azafrán"
+    ],
+    "forma_de_servir": "directamente de la paellera",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 3300,
+    "nombre del pictograma": [
+      "empanadas"
+    ],
+    "definicion": "Las empanadas son un tipo de masa rellena que se cocina al horno o frita. Se pueden encontrar en diferentes culturas alrededor del mundo, y pueden tener rellenos dulces o salados, como carne, pollo, verduras, queso o frutas.",
+    "categoria": "aperitivo",
+    "subcategoria": "varios",
+    "origen": "varios países",
+    "tipo_de_coccion": "horneado o frito",
+    "ingredientes": [
+      "masa",
+      "relleno"
+    ],
+    "forma_de_servir": "individuales o en porciones",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2505,
+    "nombre del pictograma": [
+      "papas fritas",
+      "fritas"
+    ],
+    "definicion": "Las papas fritas son un acompañamiento popular en muchos países, consisten en papas cortadas en forma de bastones y fritas en aceite hasta que queden crujientes por fuera y tiernas por dentro. Se sirven comúnmente como guarnición de hamburguesas, sándwiches o platos principales.",
+    "categoria": "acompañamiento",
+    "subcategoria": "varios",
+    "origen": "varios países",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "papas",
+      "aceite",
+      "sal"
+    ],
+    "forma_de_servir": "en porciones",
+    "equivalentes": [
+      "patatas fritas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 4966,
+    "nombre del pictograma": [
+      "tortilla de papa",
+      "tortilla española"
+    ],
+    "definicion": "La tortilla de papa es un plato tradicional español que consiste en una tortilla de huevo con papas cocidas y cebolla. Se cocina en una sartén hasta que quede dorada por fuera y jugosa por dentro. Es un plato muy popular en España y se puede servir como tapa, aperitivo o plato principal.",
+    "categoria": "plato principal",
+    "subcategoria": "huevos",
+    "origen": "España",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "huevos",
+      "papas",
+      "cebolla"
+    ],
+    "forma_de_servir": "en porciones",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38959,
+    "nombre del pictograma": [
+      "provoleta"
+    ],
+    "definicion": "La provoleta es un plato típico de la cocina argentina y uruguaya, que consiste en queso provolone cortado en rodajas y asado a la parrilla hasta que se derrite y se forma una capa dorada en la superficie. Se suele condimentar con orégano y servir caliente como entrada o acompañamiento.",
+    "categoria": "entrante",
+    "subcategoria": "queso",
+    "origen": "Argentina, Uruguay",
+    "tipo_de_coccion": "a la parrilla",
+    "ingredientes": [
+      "queso provolone",
+      "orégano"
+    ],
+    "forma_de_servir": "en porciones",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 6551,
+    "nombre del pictograma": [
+      "limonada"
+    ],
+    "definicion": "La limonada es una bebida refrescante elaborada a base de limón, agua y azúcar, ideal para calmar la sed en días calurosos. Se caracteriza por su sabor cítrico y su color amarillo claro.",
+    "categoria": "bebidas",
+    "subcategoria": "limonada",
+    "origen": "Internacional",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "limón",
+      "agua",
+      "azúcar"
+    ],
+    "forma_de_servir": "en vaso con hielo",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 3002,
+    "nombre del pictograma": [
+      "rabas",
+      "calamares"
+    ],
+    "definicion": "Las rabas son anillas de calamar rebozadas y fritas, muy populares en la gastronomía española y argentina. Se caracterizan por su textura crujiente por fuera y tierna por dentro, siendo un delicioso aperitivo o plato principal.",
+    "categoria": "carnes",
+    "subcategoria": "calamar",
+    "origen": "España, Argentina",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "calamar",
+      "harina",
+      "huevo",
+      "aceite"
+    ],
+    "forma_de_servir": "calientes con limón y salsa tártara",
+    "equivalentes": [
+      "calamares a la romana"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2541,
+    "nombre del pictograma": [
+      "queso"
+    ],
+    "definicion": "El queso es un producto lácteo obtenido por la coagulación de la leche, seguido de un proceso de maduración. Existen numerosas variedades de queso, con diferentes texturas, sabores y aromas, que pueden ser consumidos solos, en platos o como acompañamiento.",
+    "categoria": " lácteos",
+    "subcategoria": "varios",
+    "origen": "Internacional",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "leche",
+      "cuajo",
+      "sal"
+    ],
+    "forma_de_servir": "en tabla de quesos, rallado, fundido, etc.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 10225,
+    "nombre del pictograma": [
+      "picada"
+    ],
+    "definicion": "La picada es un plato típico de la gastronomía argentina y uruguaya, compuesto por una selección de embutidos, quesos, aceitunas y otros ingredientes, ideal para compartir en reuniones o como entrada. Se sirve acompañado de pan y aderezos.",
+    "categoria": "aperitivos",
+    "subcategoria": "varios",
+    "origen": "Argentina, Uruguay",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "embutidos",
+      "quesos",
+      "aceitunas",
+      "frutos secos"
+    ],
+    "forma_de_servir": "en una tabla o plato, para compartir",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 8554,
+    "nombre del pictograma": [
+      "fiambre",
+      "embutido",
+      "fiambres",
+      "embutidos"
+    ],
+    "definicion": "El fiambre es un plato frío compuesto por una variedad de embutidos, fiambres, quesos y verduras encurtidas, muy popular en la gastronomía europea y latinoamericana. Se sirve en rodajas o trozos, acompañado de pan y aderezos.",
+    "categoria": "carnes",
+    "subcategoria": "embutidos",
+    "origen": "Internacional",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "embutidos",
+      "fiambres",
+      "quesos",
+      "verduras encurtidas"
+    ],
+    "forma_de_servir": "en rodajas con pan y aderezos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2377,
+    "nombre del pictograma": [
+      "ensalada"
+    ],
+    "definicion": "Una ensalada es un plato que combina diversos ingredientes frescos como verduras, hortalizas, frutas, proteínas y aderezos, todo mezclado en frío.",
+    "categoria": "ensaladas",
+    "subcategoria": "variedad",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguna",
+    "ingredientes": [
+      "verduras",
+      "hortalizas",
+      "frutas",
+      "proteínas",
+      "aderezos"
+    ],
+    "forma_de_servir": "en un plato o bol",
+    "equivalentes": [
+      "ensalada mixta",
+      "ensalada verde"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 6502,
+    "nombre del pictograma": [
+      "pescado a la romana",
+      "pescado empanado"
+    ],
+    "definicion": "El pescado a la romana es una receta popular de pescado rebozado y frito, típica de la cocina italiana. El pescado se sumerge en una mezcla de harina, huevo y pan rallado antes de freírlo.",
+    "categoria": "pescados",
+    "subcategoria": "variedad",
+    "origen": "Italia",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "filete de pescado",
+      "harina",
+      "huevo",
+      "pan rallado"
+    ],
+    "forma_de_servir": "caliente, acompañado de limón",
+    "equivalentes": [
+      "pesce fritto",
+      "fritto misto"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 26419,
+    "nombre del pictograma": [
+      "salmón",
+      "rodaja de salmón"
+    ],
+    "definicion": "El salmón es un pescado de agua dulce o salada, de color rosado y sabor suave. Es una excelente fuente de ácidos grasos omega-3 y se puede preparar de diversas formas, como a la parrilla, al horno o ahumado.",
+    "categoria": "pescados",
+    "subcategoria": "salmonidos",
+    "origen": "varios",
+    "tipo_de_coccion": "a la parrilla, al horno, ahumado",
+    "ingredientes": [
+      "filete de salmón"
+    ],
+    "forma_de_servir": "caliente, acompañado de limón o salsa de eneldo",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 5389,
+    "nombre del pictograma": [
+      "asado"
+    ],
+    "definicion": "El asado es un plato de carne cocida lentamente en el horno o a la parrilla, sazonada con especias y hierbas aromáticas. Es una preparación tradicional en muchas culturas, donde se suele servir como plato principal en celebraciones o reuniones familiares.",
+    "categoria": "carnes",
+    "subcategoria": "variedad",
+    "origen": "varios",
+    "tipo_de_coccion": "al horno, a la parrilla",
+    "ingredientes": [
+      "carne de res",
+      "especias",
+      "hierbas aromáticas"
+    ],
+    "forma_de_servir": "caliente, acompañado de guarniciones como papas asadas o ensalada",
+    "equivalentes": [
+      "asado de carne"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 7000,
+    "nombre del pictograma": [
+      "costilla"
+    ],
+    "definicion": "Las costillas son un corte de carne de cerdo, vaca o cordero que se caracterizan por su sabor intenso y su textura jugosa. Se pueden cocinar a la parrilla, al horno o a la barbacoa, y suelen servirse con salsa barbacoa o adobos.",
+    "categoria": "carnes",
+    "subcategoria": "variedad",
+    "origen": "varios",
+    "tipo_de_coccion": "a la parrilla, al horno, a la barbacoa",
+    "ingredientes": [
+      "costillas de cerdo",
+      "costillas de vaca",
+      "costillas de cordero"
+    ],
+    "forma_de_servir": "caliente, con salsa barbacoa o adobos",
+    "equivalentes": [
+      "costillar"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2316,
+    "nombre del pictograma": [
+      "carne"
+    ],
+    "definicion": "La carne es un alimento rico en proteínas y nutrientes esenciales para el cuerpo humano, proveniente de animales como vacas, cerdos, ovejas, entre otros.",
+    "categoria": "carnes",
+    "subcategoria": "",
+    "origen": "",
+    "tipo_de_coccion": "a la parrilla, horneado, frito, etc.",
+    "ingredientes": [
+      "carne de animal"
+    ],
+    "forma_de_servir": "Depende del corte y tipo de carne, se puede servir en filetes, trozos, en guisos, etc.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 35759,
+    "nombre del pictograma": [
+      "bife de vaca",
+      "filete de vaca",
+      "bife",
+      "filete"
+    ],
+    "definicion": "El bife de vaca es un corte de carne de res muy popular y apreciado por su sabor y textura, generalmente se cocina a la parrilla o a la plancha.",
+    "categoria": "carnes",
+    "subcategoria": "vacuna",
+    "origen": "",
+    "tipo_de_coccion": "a la parrilla, a la plancha",
+    "ingredientes": [
+      "carne de vaca"
+    ],
+    "forma_de_servir": "En general se sirve en filetes acompañado de guarniciones como papas fritas, ensalada o arroz.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 37000,
+    "nombre del pictograma": [
+      "milanesa de carne"
+    ],
+    "definicion": "La milanesa de carne es un plato típico argentino que consiste en carne de res empanizada y frita, es un plato sabroso y fácil de preparar.",
+    "categoria": "carnes",
+    "subcategoria": "",
+    "origen": "Argentina",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "carne de res",
+      "pan rallado",
+      "huevo"
+    ],
+    "forma_de_servir": "Se sirve caliente acompañado de ensaladas, papas fritas o puré de papas.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 8655,
+    "nombre del pictograma": [
+      "pechuga de pollo",
+      "pechuga"
+    ],
+    "definicion": "La pechuga de pollo es un corte magro y saludable de carne de pollo, ideal para dietas bajas en grasas, se puede cocinar de diversas formas como a la plancha, al horno o a la parrilla.",
+    "categoria": "carnes",
+    "subcategoria": "pollo",
+    "origen": "",
+    "tipo_de_coccion": "a la parrilla, al horno, a la plancha",
+    "ingredientes": [
+      "pechuga de pollo"
+    ],
+    "forma_de_servir": "Se puede servir sola o acompañada de vegetales, arroz, puré de papas, etc.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 4952,
+    "nombre del pictograma": [
+      "pollo",
+      "pollo al horno",
+      "pollo asado"
+    ],
+    "definicion": "El pollo es una carne blanca muy versátil y popular en la cocina, se puede cocinar de múltiples formas y es una excelente fuente de proteínas.",
+    "categoria": "carnes",
+    "subcategoria": "pollo",
+    "origen": "",
+    "tipo_de_coccion": "asado, a la parrilla, guisado, frito",
+    "ingredientes": [
+      "carne de pollo"
+    ],
+    "forma_de_servir": "Puede servirse entero asado, en trozos fritos, desmenuzado en ensaladas, etc.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 29195,
+    "nombre del pictograma": [
+      "pollo con papas",
+      "pollo con patatas"
+    ],
+    "definicion": "Plato que consiste en pollo cocido con papas, usualmente sazonado con hierbas y especias. Es un plato principal que combina la jugosidad del pollo con la textura crujiente de las papas.",
+    "categoria": "carnes",
+    "subcategoria": "pollo",
+    "origen": "Internacional",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "pollo",
+      "papas",
+      "hierbas",
+      "especias"
+    ],
+    "forma_de_servir": "Caliente, en un plato con las papas alrededor del pollo",
+    "equivalentes": [
+      "pollo al horno con papas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38504,
+    "nombre del pictograma": [
+      "tostado de jamon y queso",
+      "tostado",
+      "sanguche de jamon y queso"
+    ],
+    "definicion": "Clásico sándwich caliente hecho con jamón y queso entre dos rebanadas de pan, que se tuesta hasta que el queso se derrite y el pan se vuelve crujiente. Es una opción popular para una comida rápida y sabrosa.",
+    "categoria": "bocadillos",
+    "subcategoria": "tostados",
+    "origen": "Internacional",
+    "tipo_de_coccion": "tostado",
+    "ingredientes": [
+      "pan",
+      "jamón",
+      "queso"
+    ],
+    "forma_de_servir": "Caliente, cortado por la mitad o en triángulos",
+    "equivalentes": [
+      "tostado mixto",
+      "grilled cheese"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 3383,
+    "nombre del pictograma": [
+      "sándwich",
+      "sánguche"
+    ],
+    "definicion": "Preparación culinaria que consiste en colocar ingredientes entre dos rebanadas de pan. Puede ser frío o caliente, dulce o salado, y es una opción versátil para cualquier comida del día.",
+    "categoria": "bocadillos",
+    "subcategoria": "varios",
+    "origen": "Internacional",
+    "tipo_de_coccion": "varía según el tipo de sándwich",
+    "ingredientes": [
+      "pan",
+      "relleno"
+    ],
+    "forma_de_servir": "Cortado en mitades, triángulos o en diagonal",
+    "equivalentes": [
+      "emparedado",
+      "bocadillo"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 8009,
+    "nombre del pictograma": [
+      "palta",
+      "avocado",
+      "palta"
+    ],
+    "definicion": "Fruto de forma ovalada con piel verde y pulpa cremosa de color verde claro. La palta es rica en grasas saludables y se utiliza en ensaladas, salsas, guacamole y como acompañamiento en platos salados.",
+    "categoria": "frutas",
+    "subcategoria": "varias",
+    "origen": "América Latina",
+    "tipo_de_coccion": "crudo",
+    "ingredientes": [
+      "palta"
+    ],
+    "forma_de_servir": "Cortada en mitades, rebanadas o en guacamole",
+    "equivalentes": [
+      "aguacate"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 36469,
+    "nombre del pictograma": [
+      "tortita",
+      "torta de aceite",
+      "pan árabe",
+      "pan pita"
+    ],
+    "definicion": "Pequeña torta dulce de forma redonda, suave y esponjosa. Las tortitas suelen ser acompañadas de sirope, frutas, helado o nata montada, y son ideales para el desayuno o la merienda.",
+    "categoria": "postres",
+    "subcategoria": "tortas",
+    "origen": "Internacional",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "azúcar",
+      "huevos",
+      "leche"
+    ],
+    "forma_de_servir": "Caliente, con toppings dulces",
+    "equivalentes": [
+      "panqueque",
+      "crepe"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 29131,
+    "nombre del pictograma": [
+      "verduras",
+      "vegetales",
+      "verdura",
+      "vegetal"
+    ],
+    "definicion": "Las verduras son alimentos de origen vegetal que se caracterizan por ser ricos en vitaminas, minerales y fibra. Son fundamentales para una alimentación equilibrada y se pueden consumir crudas o cocidas.",
+    "categoria": "vegetales",
+    "subcategoria": null,
+    "origen": null,
+    "tipo_de_coccion": "cocidas, crudas",
+    "ingredientes": [
+      "variedad de vegetales"
+    ],
+    "forma_de_servir": "cocidas al vapor, salteadas, en ensaladas, etc.",
+    "equivalentes": [
+      "hortalizas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 8691,
+    "nombre del pictograma": [
+      "sin gluten",
+      "libre de gluten"
+    ],
+    "definicion": "Los alimentos sin gluten son aquellos que no contienen esta proteína, siendo ideales para personas con intolerancia al gluten o celiaquía. Se pueden encontrar productos sin gluten como panes, pastas, galletas, entre otros.",
+    "categoria": "sin gluten",
+    "subcategoria": null,
+    "origen": null,
+    "tipo_de_coccion": null,
+    "ingredientes": [
+      "varios"
+    ],
+    "forma_de_servir": "según el producto específico",
+    "equivalentes": [
+      "libre de gluten"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2433,
+    "nombre del pictograma": [
+      "jamón crudo"
+    ],
+    "definicion": "El jamón crudo es un embutido elaborado a partir de la pierna trasera del cerdo, salado y curado. Se presenta en lonchas finas y tiene un sabor intenso y característico.",
+    "categoria": "carnes",
+    "subcategoria": "cerdo",
+    "origen": null,
+    "tipo_de_coccion": "curado",
+    "ingredientes": [
+      "pierna de cerdo",
+      "sal",
+      "especias"
+    ],
+    "forma_de_servir": "en lonchas finas como aperitivo o acompañamiento",
+    "equivalentes": [
+      "jamón serrano"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 10231,
+    "nombre del pictograma": [
+      "pancito"
+    ],
+    "definicion": "El pancito es un pan pequeño, suave y esponjoso, por lo general sin corteza. Es ideal para acompañar comidas o para hacer sándwiches. Se puede encontrar en diferentes formas y sabores.",
+    "categoria": "panadería",
+    "subcategoria": "pan",
+    "origen": null,
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "levadura",
+      "agua",
+      "sal",
+      "azúcar"
+    ],
+    "forma_de_servir": "como acompañamiento o para hacer sándwiches",
+    "equivalentes": [
+      "panecillo",
+      "pan de leche"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 35815,
+    "nombre del pictograma": [
+      "tiritas de pollo",
+      "milanesitas de pollo",
+      "pechugas de pollo apanadas",
+      "milanesitas de pollo"
+    ],
+    "definicion": "Las tiritas de pollo son porciones de pechuga de pollo cortadas en tiras delgadas, generalmente empanizadas y fritas. Son muy populares como snack o acompañamiento en comidas rápidas.",
+    "categoria": "carnes",
+    "subcategoria": "pollo",
+    "origen": null,
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "pechuga de pollo",
+      "pan rallado",
+      "huevo",
+      "harina",
+      "sal",
+      "especias"
+    ],
+    "forma_de_servir": "como snack o acompañamiento",
+    "equivalentes": [
+      "strips de pollo",
+      "tiras de pollo empanizadas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 31378,
+    "nombre del pictograma": [
+      "nuggets de pollo",
+      "patitas de pollo"
+    ],
+    "definicion": "Los nuggets de pollo son trozos de carne de pollo empanizados y fritos. Son un snack popular entre niños y adultos debido a su sabor crujiente y delicioso.",
+    "categoria": "carnes",
+    "subcategoria": "pollo",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "pechuga de pollo",
+      "pan rallado",
+      "harina",
+      "huevo"
+    ],
+    "forma_de_servir": "Se sirven generalmente como aperitivo o acompañamiento con salsas como kétchup o mostaza.",
+    "equivalentes": [
+      "nuggets de pollo empanizados"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 39132,
+    "nombre del pictograma": [
+      "guacamole",
+      "guacamol"
+    ],
+    "definicion": "El guacamole es una salsa de origen mexicano hecha a base de aguacate, cilantro, cebolla, tomate, limón y sal. Tiene un sabor fresco y cremoso que lo hace perfecto para acompañar nachos, tacos o simplemente como dip.",
+    "categoria": "salsas",
+    "subcategoria": "aguacate",
+    "origen": "México",
+    "tipo_de_coccion": "no aplica",
+    "ingredientes": [
+      "aguacate",
+      "cilantro",
+      "cebolla",
+      "tomate",
+      "limón",
+      "sal"
+    ],
+    "forma_de_servir": "Se sirve típicamente en un tazón con nachos, tacos o como acompañamiento de platos mexicanos.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2358,
+    "nombre del pictograma": [
+      "croissant",
+      "medialuna"
+    ],
+    "definicion": "El croissant es un tipo de bollo hojaldrado de origen francés. Su forma característica de media luna y su textura crujiente por fuera y suave por dentro lo hacen un desayuno popular en todo el mundo.",
+    "categoria": "panadería",
+    "subcategoria": "bollería",
+    "origen": "Francia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "mantequilla",
+      "levadura",
+      "azúcar",
+      "sal"
+    ],
+    "forma_de_servir": "Se sirve generalmente en el desayuno acompañado de mermelada, mantequilla o simplemente solo.",
+    "equivalentes": [
+      "cruasán"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2963,
+    "nombre del pictograma": [
+      "jamón cocido"
+    ],
+    "definicion": "El jamón cocido es un embutido de carne de cerdo que se cuece y se ahúma. Tiene un sabor suave y es muy versátil, ya que puede utilizarse tanto en platos fríos como calientes.",
+    "categoria": "carnes",
+    "subcategoria": "cerdo",
+    "origen": "España",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "carne de cerdo",
+      "sal",
+      "especias"
+    ],
+    "forma_de_servir": "Se sirve generalmente en sándwiches, ensaladas o tablas de embutidos.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38497,
+    "nombre del pictograma": [
+      "chipá",
+      "chipa"
+    ],
+    "definicion": "El chipá es un pan tradicional de Paraguay hecho a base de almidón de mandioca, queso, huevos y leche. Tiene una textura esponjosa por dentro y crujiente por fuera, y se suele servir como snack o acompañamiento.",
+    "categoria": "panadería",
+    "subcategoria": "pan",
+    "origen": "Paraguay",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "almidón de mandioca",
+      "queso",
+      "huevos",
+      "leche"
+    ],
+    "forma_de_servir": "Se sirve caliente y es ideal para acompañar mate o como aperitivo en reuniones.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2787,
+    "nombre del pictograma": [
+      "tostada"
+    ],
+    "definicion": "Una tostada es una rebanada de pan que ha sido calentada hasta que se vuelve crujiente. Puede ser consumida sola o acompañada de mantequilla, mermelada, aguacate, entre otros.",
+    "categoria": "panadería",
+    "subcategoria": "pan",
+    "origen": "varios países",
+    "tipo_de_coccion": "tostado",
+    "ingredientes": [
+      "pan"
+    ],
+    "forma_de_servir": "generalmente se sirve en el desayuno o como acompañamiento de otros platos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 7132,
+    "nombre del pictograma": [
+      "huevo duro"
+    ],
+    "definicion": "Un huevo duro es un huevo cocido en agua hirviendo hasta que la yema y la clara se solidifican por completo. Es una forma común de preparar huevos para consumirlos como aperitivo o en ensaladas.",
+    "categoria": "huevos",
+    "subcategoria": "ninguna",
+    "origen": "varios países",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "huevo"
+    ],
+    "forma_de_servir": "puede servirse solo, en ensaladas, como relleno de sándwiches, etc.",
+    "equivalentes": [
+      "huevo cocido"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2428,
+    "nombre del pictograma": [
+      " Forma parte de los desayunos de muchas naciones anglosajonas, donde suele hacerse sobre grasa animal, y es parte integrante del tradicional desayuno inglés junto con el tocino frito (plato conocido como huevos con tocino)."
+    ],
+    "definicion": "Una hamburguesa es un sándwich que consiste en una carne molida, generalmente de res, formada en una bola y aplanada para luego ser cocinada a la parrilla o frita. Se sirve en un pan de hamburguesa con diversos acompañamientos como lechuga, tomate, queso, etc.",
+    "categoria": "carnes",
+    "subcategoria": "vacuna",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "a la parrilla o frito",
+    "ingredientes": [
+      "carne molida de res",
+      "pan de hamburguesa",
+      "lechuga",
+      "tomate",
+      "queso"
+    ],
+    "forma_de_servir": "comúnmente se sirve acompañada de papas fritas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2419,
+    "nombre del pictograma": [
+      "hamburguesa"
+    ],
+    "definicion": "Los mostacholes son un tipo de pasta de forma larga y tubular, similar a los macarrones pero de mayor tamaño. Se pueden cocinar de diversas formas, como hervidos con salsa o al horno en preparaciones como lasañas.",
+    "categoria": "pasta",
+    "subcategoria": "ninguna",
+    "origen": "Italia",
+    "tipo_de_coccion": "hervido o al horno",
+    "ingredientes": [
+      "harina",
+      "agua"
+    ],
+    "forma_de_servir": "se sirve generalmente con salsa de tomate, queso rallado u otras salsas",
+    "equivalentes": [
+      "penne rigate"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2455,
+    "nombre del pictograma": [
+      "mostacholes, mostacholis "
+    ],
+    "definicion": "Pasta alimenticia de forma cilíndrica y hueca, que puede prepararse con diversas salsas y acompañamientos."
+  },
+  {
+    "id del pictograma de ARASAAC": 2383,
+    "nombre del pictograma": [
+      "fideos, tallarines, espaguetis, cintas"
+    ],
+    "definicion": "Los fideos son un tipo de pasta elaborada a base de harina de trigo, agua y a veces huevo, que se suele cocinar hirviéndolos en agua. Son un alimento muy versátil que se puede combinar con diferentes salsas, verduras y proteínas.",
+    "categoria": "cereales",
+    "subcategoria": "pastas",
+    "origen": "Italia",
+    "tipo_de_coccion": "hirviendo",
+    "ingredientes": [
+      "harina de trigo",
+      "agua",
+      "huevo"
+    ],
+    "forma_de_servir": "generalmente acompañados de salsa",
+    "equivalentes": [
+      "noodles",
+      "pasta"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2461,
+    "nombre del pictograma": [
+      "manteca"
+    ],
+    "definicion": "La manteca es una grasa láctea sólida que se obtiene de la nata de la leche. Se utiliza comúnmente para cocinar, hornear y untar en panes y tostadas.",
+    "categoria": "lácteos",
+    "subcategoria": "grasas",
+    "origen": "varios países",
+    "tipo_de_coccion": "varios",
+    "ingredientes": [
+      "nata de leche"
+    ],
+    "forma_de_servir": "para cocinar o untar",
+    "equivalentes": [
+      "mantequilla",
+      "margarina"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2503,
+    "nombre del pictograma": [
+      "papa"
+    ],
+    "definicion": "La papa es un tubérculo comestible muy versátil que se consume en todo el mundo. Se puede cocinar de diversas maneras, ya sea hervida, asada, frita o en puré. Es una fuente importante de carbohidratos y fibra dietética.",
+    "categoria": "hortalizas",
+    "subcategoria": "tubérculos",
+    "origen": "América del Sur",
+    "tipo_de_coccion": "varios",
+    "ingredientes": [
+      "papa"
+    ],
+    "forma_de_servir": "hervida, frita, asada, en puré, etc.",
+    "equivalentes": [
+      "patata"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 8652,
+    "nombre del pictograma": [
+      "pasta",
+      "fideos"
+    ],
+    "definicion": "La pasta es un alimento elaborado a base de sémola de trigo, agua y a veces huevo, que se moldea en diversas formas como espaguetis, macarrones o lasaña. Es un alimento básico en la dieta de muchas culturas y se suele cocinar hirviéndola y combinándola con salsas y otros ingredientes.",
+    "categoria": "cereales",
+    "subcategoria": "pastas",
+    "origen": "Italia",
+    "tipo_de_coccion": "hirviendo",
+    "ingredientes": [
+      "sémola de trigo",
+      "agua",
+      "huevo"
+    ],
+    "forma_de_servir": "generalmente acompañada de salsa",
+    "equivalentes": [
+      "fideos",
+      "noodles"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2679,
+    "nombre del pictograma": [
+      "zapallo"
+    ],
+    "definicion": "El zapallo es una hortaliza de la familia de las cucurbitáceas, de forma redonda u ovalada y cáscara dura. Se puede cocinar de diferentes maneras, ya sea asado, hervido, en puré o en guisos. Es una buena fuente de fibra, vitaminas y minerales.",
+    "categoria": "hortalizas",
+    "subcategoria": "hortalizas de fruto",
+    "origen": "varios países",
+    "tipo_de_coccion": "varios",
+    "ingredientes": [
+      "zapallo"
+    ],
+    "forma_de_servir": "asado, hervido, en puré, en guisos, etc.",
+    "equivalentes": [
+      "calabaza"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 9051,
+    "nombre del pictograma": [
+      "lasagna",
+      "lasaña"
+    ],
+    "definicion": "La lasagna es un plato de origen italiano compuesto por capas de pasta intercaladas con carne, queso y salsa de tomate. Se hornea hasta que las capas de pasta estén cocidas y el queso esté derretido y dorado.",
+    "categoria": "pastas",
+    "subcategoria": "pasta horneada",
+    "origen": "Italia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "pasta",
+      "carne",
+      "queso",
+      "salsa de tomate"
+    ],
+    "forma_de_servir": "se sirve caliente, cortada en porciones individuales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2527,
+    "nombre del pictograma": [
+      "pizza"
+    ],
+    "definicion": "La pizza es un plato de origen italiano que consiste en una base de masa de pan cubierta con salsa de tomate, queso y otros ingredientes como jamón, champiñones, pepperoni, etc. Se hornea en un horno hasta que la masa esté dorada y crujiente.",
+    "categoria": "pizzas",
+    "subcategoria": "varios",
+    "origen": "Italia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "masa de pan",
+      "salsa de tomate",
+      "queso",
+      "jamón",
+      "champiñones",
+      "pepperoni"
+    ],
+    "forma_de_servir": "se sirve caliente, cortada en porciones triangulares",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2874,
+    "nombre del pictograma": [
+      "aceitunas verdes",
+      "aceitunas"
+    ],
+    "definicion": "Las aceitunas verdes son frutos del olivo que se recolectan antes de madurar completamente, por lo que tienen un sabor más suave y menos amargo que las aceitunas negras. Se utilizan en ensaladas, aperitivos y como guarnición en platos mediterráneos.",
+    "categoria": "frutas",
+    "subcategoria": "aceitunas",
+    "origen": "Mediterráneo",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "aceitunas"
+    ],
+    "forma_de_servir": "se sirven enteras o deshuesadas, como aperitivo o en ensaladas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2525,
+    "nombre del pictograma": [
+      "anana",
+      "piña",
+      "ananá"
+    ],
+    "definicion": "El ananá, también conocido como piña, es una fruta tropical de pulpa jugosa y sabor dulce. Se consume fresco, en jugos, ensaladas de frutas o como ingrediente en platos agridulces. Es una excelente fuente de vitamina C y fibra.",
+    "categoria": "frutas",
+    "subcategoria": "frutas tropicales",
+    "origen": "América del Sur",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "ananá"
+    ],
+    "forma_de_servir": "se consume fresco, en jugos, ensaladas o como guarnición",
+    "equivalentes": [
+      "piña"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 35755,
+    "nombre del pictograma": [
+      "rúcula",
+      "rucula"
+    ],
+    "definicion": "La rúcula es una planta de hojas verdes con un sabor ligeramente picante y un tanto amargo. Se utiliza en ensaladas, pizzas, sándwiches y como guarnición en platos de carne y pescado. Es rica en antioxidantes y vitaminas A y K.",
+    "categoria": "verduras",
+    "subcategoria": "hojas verdes",
+    "origen": "",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "rúcula"
+    ],
+    "forma_de_servir": "se consume cruda, fresca, como parte de ensaladas o platos principales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 35767,
+    "nombre del pictograma": [
+      "queso brie"
+    ],
+    "definicion": "El queso brie es un queso suave y cremoso de origen francés, elaborado con leche de vaca. Tiene una corteza comestible blanca y un interior untuoso y delicado.",
+    "categoria": "quesos",
+    "subcategoria": "varios",
+    "origen": "Francia",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "leche de vaca",
+      "cultivos de bacterias lácticas",
+      "sal"
+    ],
+    "forma_de_servir": "se sirve a temperatura ambiente, ideal para acompañar con pan o frutas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2994,
+    "nombre del pictograma": [
+      "panceta ahumada",
+      "panceta"
+    ],
+    "definicion": "La panceta ahumada es un corte de carne de cerdo, específicamente de la zona del vientre, que ha sido curado y ahumado. Suele tener un sabor intenso y jugoso, perfecto para añadir a guisos o como acompañamiento en platos.",
+    "categoria": "carnes",
+    "subcategoria": "cerdo",
+    "origen": "varios",
+    "tipo_de_coccion": "ahumado",
+    "ingredientes": [
+      "carne de cerdo",
+      "sal",
+      "especias"
+    ],
+    "forma_de_servir": "se utiliza en platos como carbonara, guisos, ensaladas o como acompañamiento en desayunos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 10220,
+    "nombre del pictograma": [
+      "champiñón"
+    ],
+    "definicion": "Los champiñones son hongos comestibles de forma redondeada, con un sombrero suave y un tallo firme. Son muy versátiles en la cocina y aportan un sabor terroso a los platos.",
+    "categoria": "vegetales",
+    "subcategoria": "hongos",
+    "origen": "varios",
+    "tipo_de_coccion": "varios",
+    "ingredientes": [
+      "champiñones frescos"
+    ],
+    "forma_de_servir": "se pueden consumir crudos en ensaladas, salteados, rellenos, en salsas o como guarnición",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 28018,
+    "nombre del pictograma": [
+      "queso azul",
+      "queso roquefort"
+    ],
+    "definicion": "El queso azul es un queso de sabor fuerte y característico, con vetas azules o verdes creadas por hongos en su interior. Suele ser cremoso y ligeramente picante, ideal para añadir a ensaladas o postres.",
+    "categoria": "quesos",
+    "subcategoria": "varios",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "leche de vaca",
+      "cultivos de bacterias lácticas",
+      "mohos"
+    ],
+    "forma_de_servir": "se puede disfrutar solo, en ensaladas, salsas, pizzas o acompañado de frutas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 25237,
+    "nombre del pictograma": [
+      "membrillo"
+    ],
+    "definicion": "El membrillo es una fruta de origen mediterráneo, de forma similar a una pera pero de color amarillo intenso. Se utiliza especialmente para hacer dulce de membrillo, una pasta firme y dulce que se puede consumir con queso o como postre.",
+    "categoria": "frutas",
+    "subcategoria": "varios",
+    "origen": "Mediterráneo",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "membrillos",
+      "azúcar"
+    ],
+    "forma_de_servir": "se sirve generalmente en forma de dulce de membrillo acompañado de queso, pan o como postre",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 28357,
+    "nombre del pictograma": [
+      "dulce de membrillo"
+    ],
+    "definicion": "El dulce de membrillo es una conserva dulce hecha a base de membrillo, azúcar y limón. Tiene una textura suave y un sabor dulce y ligeramente ácido.",
+    "categoria": "postres",
+    "subcategoria": "frutas",
+    "origen": "Argentina",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "membrillo",
+      "azúcar",
+      "limón"
+    ],
+    "forma_de_servir": "generalmente se sirve en rodajas acompañado de queso",
+    "equivalentes": [
+      "ate de membrillo"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 3317,
+    "nombre del pictograma": [
+      "flan"
+    ],
+    "definicion": "El flan es un postre cremoso hecho a base de leche, huevos, azúcar y vainilla, que se cuaja al hornearse o cocerse al baño María. Tiene una textura suave y un sabor dulce y delicado.",
+    "categoria": "postres",
+    "subcategoria": "cremas",
+    "origen": "España",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "leche",
+      "huevos",
+      "azúcar",
+      "vainilla"
+    ],
+    "forma_de_servir": "se desmolda y se sirve frío, generalmente con caramelo líquido",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36988,
+    "nombre del pictograma": [
+      "dulce de leche"
+    ],
+    "definicion": "El dulce de leche es una crema dulce y espesa elaborada a partir de leche y azúcar, que se cocina lentamente hasta obtener un color y sabor caramelizados. Es muy popular en América Latina y en otros países.",
+    "categoria": "postres",
+    "subcategoria": "cremas",
+    "origen": "Argentina",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "leche",
+      "azúcar"
+    ],
+    "forma_de_servir": "se utiliza como relleno o cobertura de postres, tortas o se come con cucharilla",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 5523,
+    "nombre del pictograma": [
+      "nata",
+      "crema de leche"
+    ],
+    "definicion": "La nata, también conocida como crema de leche o crema para batir, es una crema espesa y rica en grasa que se obtiene de la leche. Se utiliza para montar, dar cremosidad a platos y postres, o como acompañamiento.",
+    "categoria": "ingredientes",
+    "subcategoria": "lácteos",
+    "origen": "",
+    "tipo_de_coccion": "sin cocción",
+    "ingredientes": [
+      "leche"
+    ],
+    "forma_de_servir": "se puede montar para usar en postres o salsas",
+    "equivalentes": [
+      "crema de leche",
+      "crema para batir"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 29226,
+    "nombre del pictograma": [
+      "torta de chocolate"
+    ],
+    "definicion": "La torta de chocolate es un postre esponjoso y delicioso hecho a base de harina, cacao, azúcar, huevos y mantequilla, con un intenso sabor a chocolate. Es un clásico de la repostería que se disfruta en todo el mundo.",
+    "categoria": "postres",
+    "subcategoria": "tortas",
+    "origen": "",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "cacao",
+      "azúcar",
+      "huevos",
+      "mantequilla"
+    ],
+    "forma_de_servir": "se sirve en porciones individuales, decorada con crema, frutas o chocolate rallado",
+    "equivalentes": [
+      "pastel de chocolate"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 29230,
+    "nombre del pictograma": [
+      "torta de vainilla"
+    ],
+    "definicion": "La torta de vainilla es un postre esponjoso y dulce elaborado a base de harina, azúcar, huevos, leche y vainilla. Suele estar decorada con crema, frutas o merengue.",
+    "categoria": "postres",
+    "subcategoria": "tortas",
+    "origen": "varios",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "azúcar",
+      "huevos",
+      "leche",
+      "vainilla"
+    ],
+    "forma_de_servir": "en porciones individuales",
+    "equivalentes": [
+      "bizcocho de vainilla",
+      "pastel de vainilla"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 16651,
+    "nombre del pictograma": [
+      "tarta"
+    ],
+    "definicion": "La tarta es un pastel salado o dulce con base de masa quebrada o hojaldre, relleno de diversos ingredientes como verduras, carnes, frutas o cremas. Puede ser servida fría o caliente, y se suele cortar en porciones individuales.",
+    "categoria": "postres",
+    "subcategoria": "tartas",
+    "origen": "varios",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "masa quebrada",
+      "relleno variado"
+    ],
+    "forma_de_servir": "en porciones individuales",
+    "equivalentes": [
+      "pastel",
+      "quiche"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2334,
+    "nombre del pictograma": [
+      "chocolate"
+    ],
+    "definicion": "El chocolate es un alimento dulce derivado del cacao, que se presenta en forma de tableta, polvo o líquido. Se utiliza en la elaboración de postres, bebidas calientes y helados, y es apreciado por su sabor intenso y dulce.",
+    "categoria": "postres",
+    "subcategoria": "chocolates",
+    "origen": "varios",
+    "tipo_de_coccion": "varios",
+    "ingredientes": [
+      "cacao",
+      "azúcar",
+      "leche"
+    ],
+    "forma_de_servir": "en tabletas, bebidas calientes o postres",
+    "equivalentes": [
+      "cacao"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 37849,
+    "nombre del pictograma": [
+      "panqueques",
+      "hotcakes",
+      "panqueques",
+      "pancakes",
+      "panqueques"
+    ],
+    "definicion": "Los panqueques son una especie de crepes, una masa líquida hecha con harina, huevos, leche y mantequilla, que se cocina en una sartén caliente. Se sirven enrollados o doblados, y se pueden acompañar con miel, frutas o sirope.",
+    "categoria": "desayunos",
+    "subcategoria": "panqueques",
+    "origen": "varios",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "harina",
+      "huevos",
+      "leche",
+      "mantequilla"
+    ],
+    "forma_de_servir": "enrollados o doblados, con acompañamientos dulces",
+    "equivalentes": [
+      "hotcakes",
+      "crepas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 34233,
+    "nombre del pictograma": [
+      "crepes, crep"
+    ],
+    "definicion": "Los crepes son una especie de panqueques muy finos y delicados, elaborados con harina, huevos, leche y mantequilla. Se cocinan en una sartén plana y se pueden servir tanto dulces como salados, rellenos de diversos ingredientes.",
+    "categoria": "desayunos",
+    "subcategoria": "crepes",
+    "origen": "Francia",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "harina",
+      "huevos",
+      "leche",
+      "mantequilla"
+    ],
+    "forma_de_servir": "enrollados o doblados, con rellenos variados",
+    "equivalentes": [
+      "panqueques",
+      "blinis"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 8042,
+    "nombre del pictograma": [
+      "bizcochuelo"
+    ],
+    "definicion": "Bizcochuelo es un tipo de bizcocho esponjoso y ligero, elaborado a partir de harina, huevos, azúcar y levadura o polvo de hornear. Se utiliza como base para tortas y postres en repostería.",
+    "categoria": "postres",
+    "subcategoria": "bizcochos",
+    "origen": "varios",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "huevos",
+      "azúcar",
+      "levadura o polvo de hornear"
+    ],
+    "forma_de_servir": "se utiliza como base para tortas y pasteles",
+    "equivalentes": [
+      "bizcocho"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38503,
+    "nombre del pictograma": [
+      "brownie"
+    ],
+    "definicion": "El brownie es un postre de origen estadounidense, con una textura densa y húmeda. Se elabora con chocolate, mantequilla, azúcar, huevos, harina y nueces. Es muy popular acompañado de helado o crema batida.",
+    "categoria": "postres",
+    "subcategoria": "barras de chocolate",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "chocolate",
+      "mantequilla",
+      "azúcar",
+      "huevos",
+      "harina",
+      "nueces"
+    ],
+    "forma_de_servir": "se sirve en cuadrados individuales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 35209,
+    "nombre del pictograma": [
+      "helados",
+      "helado"
+    ],
+    "definicion": "Los helados son postres fríos y cremosos elaborados a base de leche, crema, azúcar y frutas, aromatizados con esencias o extractos. Se pueden encontrar en una gran variedad de sabores y presentaciones.",
+    "categoria": "postres",
+    "subcategoria": "helados",
+    "origen": "varios",
+    "tipo_de_coccion": "congelado",
+    "ingredientes": [
+      "leche",
+      "crema",
+      "azúcar",
+      "frutas",
+      "esencias o extractos"
+    ],
+    "forma_de_servir": "se sirve en copas o conos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 34763,
+    "nombre del pictograma": [
+      "crema batida"
+    ],
+    "definicion": "La crema batida es un postre o acompañamiento hecho a base de crema de leche y azúcar, batida hasta obtener una consistencia espumosa y suave. Se utiliza para decorar postres o acompañar frutas y helados.",
+    "categoria": "postres",
+    "subcategoria": "cremas",
+    "origen": "varios",
+    "tipo_de_coccion": "batido",
+    "ingredientes": [
+      "crema de leche",
+      "azúcar"
+    ],
+    "forma_de_servir": "se sirve en copos o se decora sobre postres",
+    "equivalentes": [
+      "chantilly"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38529,
+    "nombre del pictograma": [
+      "cuadraditos de manzana",
+      "crumble de mazana"
+    ],
+    "definicion": "Los cuadraditos de manzana son pequeños pasteles o tartas de manzana cortados en cuadrados individuales. Se elaboran con masa de hojaldre o masa quebrada, rellenos de manzana, azúcar y canela, y horneados hasta que estén dorados.",
+    "categoria": "postres",
+    "subcategoria": "tartas de fruta",
+    "origen": "varios",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "masa de hojaldre o masa quebrada",
+      "manzana",
+      "azúcar",
+      "canela"
+    ],
+    "forma_de_servir": "se sirve en cuadrados individuales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2462,
+    "nombre del pictograma": [
+      "manzana"
+    ],
+    "definicion": "La manzana es una fruta jugosa y refrescante, conocida por su sabor dulce y ligeramente ácido. Es rica en fibra y vitaminas, siendo un alimento muy saludable y versátil.",
+    "categoria": "frutas",
+    "subcategoria": "frutas frescas",
+    "origen": "varios países",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "manzana"
+    ],
+    "forma_de_servir": "fresca, en rebanadas o trozos",
+    "equivalentes": [
+      "apple"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 39105,
+    "nombre del pictograma": [
+      "maracuyá",
+      "parcha"
+    ],
+    "definicion": "El maracuyá es una fruta exótica de sabor agridulce y aroma intenso. Es una excelente fuente de vitamina C y fibra, siendo popular en postres y bebidas tropicales.",
+    "categoria": "frutas",
+    "subcategoria": "frutas tropicales",
+    "origen": "América del Sur",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "maracuyá"
+    ],
+    "forma_de_servir": "en jugo, postres o como topping",
+    "equivalentes": [
+      "parchita",
+      "fruta de la pasión"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38490,
+    "nombre del pictograma": [
+      "chocolate blanco"
+    ],
+    "definicion": "El chocolate blanco es un producto derivado del cacao, elaborado con manteca de cacao, azúcar y leche. Tiene un sabor dulce y cremoso, siendo muy utilizado en repostería y confitería.",
+    "categoria": "postres",
+    "subcategoria": "chocolates",
+    "origen": "varios países",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "manteca de cacao",
+      "azúcar",
+      "leche"
+    ],
+    "forma_de_servir": "en tabletas, en coberturas o en rellenos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38499,
+    "nombre del pictograma": [
+      "cheesecake",
+      "torta de queso"
+    ],
+    "definicion": "El cheesecake es un postre cremoso y consistente, elaborado a base de queso crema, huevos, azúcar y galletas. Se hornea y se sirve frío, siendo muy popular en la repostería internacional.",
+    "categoria": "postres",
+    "subcategoria": "postres horneados",
+    "origen": "varios países",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "queso crema",
+      "huevos",
+      "azúcar",
+      "galletas"
+    ],
+    "forma_de_servir": "frío, con salsa de frutas o chocolate",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38496,
+    "nombre del pictograma": [
+      "carrot cake"
+    ],
+    "definicion": "El carrot cake es un pastel húmedo y especiado, elaborado con zanahoria rallada, nueces, canela y especias. Suele llevar crema de queso en la cobertura, siendo un postre delicioso y popular.",
+    "categoria": "postres",
+    "subcategoria": "tortas",
+    "origen": "varios países",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "zanahoria",
+      "nueces",
+      "canela",
+      "especias",
+      "crema de queso"
+    ],
+    "forma_de_servir": "en porciones individuales, con crema de queso",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36469,
+    "nombre del pictograma": [
+      "tortita",
+      "torta de aceite",
+      "pan árabe",
+      "pan pita",
+      "tortita mendocina"
+    ],
+    "definicion": "Una tortita es un pequeño pan plano que se cocina en una sartén y se sirve tradicionalmente con miel, mermelada o frutas.",
+    "categoria": "postres",
+    "subcategoria": "panadería",
+    "origen": "",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "harina",
+      "leche",
+      "huevo",
+      "azúcar"
+    ],
+    "forma_de_servir": "caliente con miel o mermelada",
+    "equivalentes": [
+      "panqueque",
+      "hot cake"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38498,
+    "nombre del pictograma": [
+      "budín"
+    ],
+    "definicion": "El budín es un postre horneado hecho con una mezcla de pan rallado o bizcocho, leche, huevos, azúcar y frutas secas o chocolate.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "pan rallado",
+      "leche",
+      "huevos",
+      "azúcar",
+      "frutas secas"
+    ],
+    "forma_de_servir": "frío o caliente, a menudo con una salsa adicional",
+    "equivalentes": [
+      "pudding"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 3022,
+    "nombre del pictograma": [
+      "limón"
+    ],
+    "definicion": "El limón es una fruta cítrica de sabor ácido y refrescante. Se utiliza en la cocina para dar sabor a platos salados y postres, así como en bebidas.",
+    "categoria": "frutas",
+    "subcategoria": "cítricos",
+    "origen": "",
+    "tipo_de_coccion": "",
+    "ingredientes": [],
+    "forma_de_servir": "zumo, ralladura, rodajas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2246,
+    "nombre del pictograma": [
+      "aceite de oliva",
+      "aceite"
+    ],
+    "definicion": "El aceite de oliva es un aceite vegetal extraído de las aceitunas. Es muy utilizado en la cocina mediterránea y se considera uno de los aceites más saludables.",
+    "categoria": "condimentos",
+    "subcategoria": "aceites",
+    "origen": "",
+    "tipo_de_coccion": "",
+    "ingredientes": [
+      "aceitunas"
+    ],
+    "forma_de_servir": "para aliñar ensaladas, cocinar o como dip para pan",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 10218,
+    "nombre del pictograma": [
+      "banana",
+      "plátano"
+    ],
+    "definicion": "La banana es una fruta tropical de pulpa dulce y suave. Se puede consumir cruda, cocida o en batidos, y es una fuente de potasio y fibra.",
+    "categoria": "frutas",
+    "subcategoria": "tropicales",
+    "origen": "",
+    "tipo_de_coccion": "",
+    "ingredientes": [],
+    "forma_de_servir": "cruda, cocida, en batidos",
+    "equivalentes": [
+      "plátano"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2328,
+    "nombre del pictograma": [
+      "cereales"
+    ],
+    "definicion": "Los cereales son granos que se utilizan como alimento básico en la dieta de muchas culturas alrededor del mundo. Son ricos en nutrientes como carbohidratos, fibra y vitaminas.",
+    "categoria": "granos",
+    "subcategoria": "varios",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "granos de cereal"
+    ],
+    "forma_de_servir": "con leche, yogur o jugo",
+    "equivalentes": [
+      "cereal de desayuno"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2618,
+    "nombre del pictograma": [
+      "yogur",
+      "yogurt"
+    ],
+    "definicion": "El yogur es un alimento lácteo fermentado que se obtiene a partir de la fermentación de la leche por bacterias beneficiosas. Es una excelente fuente de proteínas, calcio y probióticos.",
+    "categoria": "lácteos",
+    "subcategoria": "yogur",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "leche",
+      "cultivos de bacterias"
+    ],
+    "forma_de_servir": "solo o con frutas y cereales",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 4653,
+    "nombre del pictograma": [
+      "fruta",
+      "frutas"
+    ],
+    "definicion": "Las frutas son alimentos que se obtienen de plantas con flores y que contienen semillas. Son una fuente importante de vitaminas, minerales y fibra en la dieta.",
+    "categoria": "frutas",
+    "subcategoria": "varias",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "variedad de frutas"
+    ],
+    "forma_de_servir": "enteras, en ensaladas o jugos",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 37842,
+    "nombre del pictograma": [
+      "bowl con frutas",
+      "cuenco con frutas",
+      "ensalada de frutas"
+    ],
+    "definicion": "Un bowl con frutas es una mezcla de frutas frescas cortadas en trozos y servidas en un recipiente. Es una opción saludable y refrescante para el desayuno o como postre.",
+    "categoria": "postres",
+    "subcategoria": "frutas",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "frutas variadas"
+    ],
+    "forma_de_servir": "en un bowl o plato hondo",
+    "equivalentes": [
+      "ensalada de frutas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2646,
+    "nombre del pictograma": [
+      "almendras"
+    ],
+    "definicion": "Las almendras son frutos secos que provienen del árbol Prunus dulcis. Son una excelente fuente de grasas saludables, proteínas, fibra y antioxidantes.",
+    "categoria": "frutos secos",
+    "subcategoria": "almendras",
+    "origen": "varios",
+    "tipo_de_coccion": "ninguno",
+    "ingredientes": [
+      "almendras"
+    ],
+    "forma_de_servir": "crudas, tostadas o en forma de harina",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 10356,
+    "nombre del pictograma": [
+      "palmera",
+      "palmerita"
+    ],
+    "definicion": "La palmera es un dulce de repostería de forma alargada y plana, elaborado con hojaldre y azúcar. Su textura crujiente y su sabor dulce la hacen perfecta para acompañar el café o el té.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "España",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "hojaldre",
+      "azúcar"
+    ],
+    "forma_de_servir": "Se sirve como un bocado dulce junto a una bebida caliente, como café o té.",
+    "equivalentes": [
+      "palmera de hojaldre"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2494,
+    "nombre del pictograma": [
+      "baguette",
+      "flauta",
+      "pan"
+    ],
+    "definicion": "La baguette es un tipo de pan de origen francés, de forma alargada y crujiente por fuera. Su interior es esponjoso y su sabor neutro lo hace ideal para acompañar comidas saladas o para hacer bocadillos.",
+    "categoria": "pan",
+    "subcategoria": "francés",
+    "origen": "Francia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "levadura",
+      "agua",
+      "sal"
+    ],
+    "forma_de_servir": "Se sirve cortada en rebanadas como acompañamiento de platos salados o para hacer sándwiches.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38491,
+    "nombre del pictograma": [
+      "roll de canela",
+      "roll",
+      "roll de canela"
+    ],
+    "definicion": "El roll de canela es un delicioso postre de origen sueco, consistente en una masa de pan dulce enrollada con canela y azúcar, horneada y cubierta con glaseado. Su sabor dulce y especiado lo hace perfecto para disfrutar en el desayuno o la merienda.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Suecia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "levadura",
+      "canela",
+      "azúcar",
+      "mantequilla"
+    ],
+    "forma_de_servir": "Se sirve caliente, recién horneado, acompañado de café o té.",
+    "equivalentes": [
+      "cinnamon roll"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2470,
+    "nombre del pictograma": [
+      "mermelada",
+      "dulce"
+    ],
+    "definicion": "La mermelada es una conserva de frutas cocidas con azúcar, que adquiere una consistencia gelatinosa. Se utiliza como complemento para untar en pan, galletas, tostadas o como relleno de postres.",
+    "categoria": "conservas",
+    "subcategoria": "fruta",
+    "origen": "",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "frutas",
+      "azúcar"
+    ],
+    "forma_de_servir": "Se sirve untada en pan, galletas o como relleno de postres como tartas o pasteles.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 20105,
+    "nombre del pictograma": [
+      "frutos secos",
+      "fruto seco"
+    ],
+    "definicion": "Los frutos secos son semillas comestibles de plantas, como nueces, almendras, avellanas, pistachos, entre otros, que se caracterizan por su alto contenido en grasas saludables, proteínas y fibra. Se consumen como snack o como ingrediente en recetas dulces y saladas.",
+    "categoria": "snacks",
+    "subcategoria": "frutos secos",
+    "origen": "",
+    "tipo_de_coccion": "crudo",
+    "ingredientes": [
+      "nueces",
+      "almendras",
+      "avellanas",
+      "pistachos",
+      "cacahuetes"
+    ],
+    "forma_de_servir": "Se sirven como snack, en ensaladas, granolas, postres o como guarnición en platos salados.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2619,
+    "nombre del pictograma": [
+      "zanahoria"
+    ],
+    "definicion": "La zanahoria es una hortaliza de color anaranjado con alto contenido de vitamina A y antioxidantes. Es conocida por su sabor dulce y su versatilidad en la cocina.",
+    "categoria": "vegetales",
+    "subcategoria": "raíces",
+    "origen": "Asia",
+    "tipo_de_coccion": "cocido, crudo",
+    "ingredientes": [
+      "zanahoria"
+    ],
+    "forma_de_servir": "cruda en ensaladas, cocida en guisos o asada al horno",
+    "equivalentes": [
+      "carrot"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38501,
+    "nombre del pictograma": [
+      "Oreos",
+      "galletitas Oreo"
+    ],
+    "definicion": "Las Oreos son galletas compuestas por dos galletas de chocolate con un relleno cremoso de vainilla. Son conocidas por su sabor dulce y su textura crujiente.",
+    "categoria": "postre",
+    "subcategoria": "galletas",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "no aplica",
+    "ingredientes": [
+      "harina de trigo",
+      "azúcar",
+      "aceite de palma",
+      "cacao en polvo",
+      "vainilla"
+    ],
+    "forma_de_servir": "como snack acompañado de leche o café",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 2594,
+    "nombre del pictograma": [
+      "tomate"
+    ],
+    "definicion": "El tomate es una fruta de color rojo intenso que se utiliza comúnmente como hortaliza en la cocina. Es conocido por su versatilidad y su sabor ácido y refrescante.",
+    "categoria": "vegetales",
+    "subcategoria": "frutas",
+    "origen": "América",
+    "tipo_de_coccion": "crudo, cocido",
+    "ingredientes": [
+      "tomate"
+    ],
+    "forma_de_servir": "crudo en ensaladas, cocido en salsas o asado al horno",
+    "equivalentes": [
+      "tomato"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2838,
+    "nombre del pictograma": [
+      "morrón verde",
+      "morrón"
+    ],
+    "definicion": "El morrón verde es un tipo de pimiento de color verde que se caracteriza por su sabor ligeramente amargo y su textura crujiente. Es muy utilizado en la cocina para aportar color y sabor a distintos platos.",
+    "categoria": "vegetales",
+    "subcategoria": "pimientos",
+    "origen": "América",
+    "tipo_de_coccion": "asado, crudo",
+    "ingredientes": [
+      "morrón verde"
+    ],
+    "forma_de_servir": "asado y pelado en ensaladas, crudo en salsas",
+    "equivalentes": [
+      "pimiento verde"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 36999,
+    "nombre del pictograma": [
+      "milanesa de peceto"
+    ],
+    "definicion": "La milanesa de peceto es una preparación de carne de ternera cortada en filetes finos, empanados y luego fritos. Es conocida por su textura crujiente por fuera y jugosa por dentro.",
+    "categoria": "carnes",
+    "subcategoria": "vacuna",
+    "origen": "Argentina",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "peceto",
+      "pan rallado",
+      "huevo",
+      "aceite"
+    ],
+    "forma_de_servir": "acompañada de ensaladas, puré de papas o papas fritas",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 13366,
+    "nombre del pictograma": [
+      "cañoncitos de dulce de leche"
+    ],
+    "definicion": "Los cañoncitos de dulce de leche son pequeños bocados de masa hojaldrada rellenos con una deliciosa crema de dulce de leche, típicos de la repostería argentina. Su textura crujiente por fuera y su relleno cremoso y dulce los convierten en un postre irresistible.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Argentina",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "masa hojaldrada",
+      "dulce de leche"
+    ],
+    "forma_de_servir": "Se sirven como postre o merienda acompañados de café o té.",
+    "equivalentes": [
+      "cañoncitos de dulce",
+      "bocaditos de dulce de leche"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 38531,
+    "nombre del pictograma": [
+      "bagel"
+    ],
+    "definicion": "El bagel es un pan redondo con un agujero en el centro, de origen judío y muy popular en la gastronomía de Nueva York. Suele ser denso, esponjoso y ligeramente dulce, y se cuece en agua antes de hornearse, lo que le otorga su característica corteza brillante y suave en el interior.",
+    "categoria": "panes",
+    "subcategoria": "panadería",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina de trigo",
+      "levadura",
+      "azúcar",
+      "sal"
+    ],
+    "forma_de_servir": "Se puede servir como desayuno o merienda, cortado por la mitad y relleno con ingredientes como queso crema, salmón ahumado o jamón.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 7201,
+    "nombre del pictograma": [
+      "pancho",
+      "hotdog"
+    ],
+    "definicion": "El pancho, también conocido como hot dog, es un bocadillo compuesto por una salchicha cocida en pan de forma alargada. Es un alimento popular en diversas culturas culinarias, siendo un clásico de la comida rápida.",
+    "categoria": "carnes",
+    "subcategoria": "salchichas",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "cocido",
+    "ingredientes": [
+      "salchicha",
+      "pan de hot dog",
+      "salsas y condimentos al gusto"
+    ],
+    "forma_de_servir": "Se sirve caliente, acompañado de salsas como mostaza, ketchup, mayonesa, cebolla frita, entre otros.",
+    "equivalentes": [
+      "hot dog",
+      "perrito caliente"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 36501,
+    "nombre del pictograma": [
+      "scon"
+    ],
+    "definicion": "El scon es un panecillo de origen británico, similar a un bollo pero más denso, que se caracteriza por su textura desmigajada y su sabor ligeramente dulce. Se suele preparar con frutas secas, como pasas o arándanos, y se sirve tradicionalmente en el té de la tarde.",
+    "categoria": "panes",
+    "subcategoria": "repostería",
+    "origen": "Reino Unido",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "mantequilla",
+      "azúcar",
+      "leche",
+      "levadura"
+    ],
+    "forma_de_servir": "Se sirve tibio, acompañado de mermelada, crema o mantequilla.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36515,
+    "nombre del pictograma": [
+      "dátil"
+    ],
+    "definicion": "El dátil es el fruto de la palmera datilera, de forma alargada y con un sabor dulce y suave. Es una fuente natural de energía y fibra, además de ser rico en vitaminas y minerales. Se consume tanto fresco como seco, siendo muy utilizado en la repostería y la cocina árabe.",
+    "categoria": "frutas",
+    "subcategoria": "frutas secas",
+    "origen": "Oriente Medio",
+    "tipo_de_coccion": "fresco o seco",
+    "ingredientes": [],
+    "forma_de_servir": "Se puede consumir fresco como snack o en ensaladas, o seco como ingrediente en postres y platos salados.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38522,
+    "nombre del pictograma": [
+      "alfajor de almendra"
+    ],
+    "definicion": "Dulce típico de la gastronomía argentina, consiste en dos galletas de almendra unidas por un relleno de dulce de leche y cubiertas con azúcar glas.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Argentina",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "almendras",
+      "dulce de leche",
+      "azúcar"
+    ],
+    "forma_de_servir": "Se sirve como postre o merienda acompañado de café o té.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38525,
+    "nombre del pictograma": [
+      "alfajor de dulce de leche"
+    ],
+    "definicion": "Dulce tradicional de Latinoamérica, consiste en dos galletas unidas por un relleno de dulce de leche y cubiertas con chocolate o azúcar glas.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Latinoamérica",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "dulce de leche",
+      "galletas",
+      "chocolate"
+    ],
+    "forma_de_servir": "Se suele servir como postre acompañado de café o té.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38502,
+    "nombre del pictograma": [
+      "cookies"
+    ],
+    "definicion": "Galletas dulces de origen estadounidense, con una textura crujiente por fuera y suave por dentro, suelen llevar chips de chocolate, frutos secos o pasas.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "mantequilla",
+      "azúcar",
+      "chocolate"
+    ],
+    "forma_de_servir": "Se sirven como snack o postre, acompañadas de leche o café.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 38524,
+    "nombre del pictograma": [
+      "galletitas de avena y pasas"
+    ],
+    "definicion": "Pequeñas galletas de textura crujiente hechas con harina de avena, pasas y otros ingredientes, ideales para acompañar una taza de té o café.",
+    "categoria": "postres",
+    "subcategoria": "repostería",
+    "origen": "Desconocido",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "avena",
+      "pasas",
+      "harina",
+      "azúcar"
+    ],
+    "forma_de_servir": "Se suelen servir como snack o postre junto a una bebida caliente.",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 37213,
+    "nombre del pictograma": [
+      "panetón",
+      "pan dulce"
+    ],
+    "definicion": "Pan dulce tradicional de Italia, especialmente consumido en Navidad, con frutas confitadas, pasas y nueces en su masa, esponjoso y aromático.",
+    "categoria": "panes",
+    "subcategoria": "dulces",
+    "origen": "Italia",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "frutas confitadas",
+      "pasas",
+      "nueces"
+    ],
+    "forma_de_servir": "Se corta en rebanadas y se acompaña de chocolate caliente o espumante.",
+    "equivalentes": [
+      "panettone"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 39497,
+    "nombre del pictograma": [
+      "facturas"
+    ],
+    "definicion": "Las facturas son una variedad de bollería dulce muy popular en Argentina, generalmente se sirven en el desayuno o la merienda. Son pequeños bollos dulces con diferentes rellenos y coberturas como crema pastelera, dulce de leche o frutas.",
+    "categoria": "postres",
+    "subcategoria": "bollería",
+    "origen": "Argentina",
+    "tipo_de_coccion": "horneado",
+    "ingredientes": [
+      "harina",
+      "azúcar",
+      "levadura",
+      "manteca",
+      "huevos"
+    ],
+    "forma_de_servir": "como acompañamiento en el desayuno o la merienda",
+    "equivalentes": [
+      "medialunas"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2281,
+    "nombre del pictograma": [
+      "sanguche de salame"
+    ],
+    "definicion": "El sanguche de salame es un sándwich típico de la gastronomía argentina, que consiste en pan relleno con salame, un embutido de cerdo condimentado. Es un alimento popular para el desayuno o la merienda.",
+    "categoria": "carnes",
+    "subcategoria": "embutidos",
+    "origen": "Argentina",
+    "tipo_de_coccion": "sin cocción",
+    "ingredientes": [
+      "pan",
+      "salame"
+    ],
+    "forma_de_servir": "en forma de sándwich",
+    "equivalentes": [
+      "sandwich de salami"
+    ]
+  },
+  {
+    "id del pictograma de ARASAAC": 2296,
+    "nombre del pictograma": [
+      "café"
+    ],
+    "definicion": "El café es una bebida estimulante preparada a partir de los granos tostados y molidos de la planta de café. Es una bebida muy popular en todo el mundo y se puede consumir caliente o fría, con o sin leche.",
+    "categoria": "bebidas",
+    "subcategoria": "café",
+    "origen": "varios",
+    "tipo_de_coccion": "infusión",
+    "ingredientes": [
+      "granitos de café",
+      "agua"
+    ],
+    "forma_de_servir": "en taza caliente",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36984,
+    "nombre del pictograma": [
+      "choripán",
+      "chorizo en pan",
+      "chori"
+    ],
+    "definicion": "El choripán es un sándwich típico de la gastronomía argentina, que consiste en pan relleno con chorizo a la parrilla. Es un alimento muy popular en parrillas y ferias. Se suele acompañar con chimichurri o salsa criolla.",
+    "categoria": "carnes",
+    "subcategoria": "chorizo",
+    "origen": "Argentina",
+    "tipo_de_coccion": "a la parrilla",
+    "ingredientes": [
+      "pan",
+      "chorizo"
+    ],
+    "forma_de_servir": "en forma de sándwich",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 36999,
+    "nombre del pictograma": [
+      "milanesa de cerdo"
+    ],
+    "definicion": "La milanesa de cerdo es un plato argentino muy popular que consiste en filetes de cerdo empanados y fritos. Se sirve caliente y crujiente, acompañado de ensaladas, papas fritas o puré. Es una opción deliciosa para el almuerzo o la cena.",
+    "categoria": "carnes",
+    "subcategoria": "cerdo",
+    "origen": "Argentina",
+    "tipo_de_coccion": "frito",
+    "ingredientes": [
+      "filetes de cerdo",
+      "pan rallado",
+      "huevo",
+      "harina"
+    ],
+    "forma_de_servir": "acompañado de guarniciones",
+    "equivalentes": []
+  },
+  {
+    "id del pictograma de ARASAAC": 37001,
+    "nombre del pictograma": [
+      "milanesa de pollo"
+    ],
+    "definicion": "Filete de pollo rebozado con pan rallado y huevo que se fríe hasta quedar dorado y crujiente. Es un plato tradicional de la cocina argentina e italiana adaptado a Latinoamérica.",
+    "categoria": "Carnes",
+    "subcategoria": "Aves",
+    "origen": "Argentina/Italia",
+    "tipo_de_coccion": "Frito",
+    "ingredientes": ["Pechuga de pollo", "Pan rallado", "Huevo", "Sal", "Condimentos"],
+    "forma_de_servir": "Generalmente se sirve caliente como plato principal, acompañado de puré de papas, ensalada o papas fritas.",
+    "equivalentes": ["Escalope de pollo", "Chicken milanese", "Schnitzel de pollo"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37070,
+    "nombre del pictograma": [
+      "nachos"
+    ],
+    "definicion": "Totopos o chips de maíz triangulares, generalmente servidos con queso derretido y diversos acompañamientos. Son un aperitivo popular de la cocina texana-mexicana.",
+    "categoria": "Aperitivos",
+    "subcategoria": "Snacks salados",
+    "origen": "México/Texas",
+    "tipo_de_coccion": "Horneado o frito",
+    "ingredientes": ["Tortillas de maíz", "Queso", "Jalapeños", "Salsa", "Guacamole"],
+    "forma_de_servir": "Se sirven en plato grande o bandeja, con el queso y los toppings por encima, ideales para compartir.",
+    "equivalentes": ["Totopos con queso", "Chips de maíz con queso"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37204,
+    "nombre del pictograma": [
+      "ensalada de fideos"
+    ],
+    "definicion": "Plato frío que combina pasta cocida con verduras, aderezo y a veces proteínas. Es un plato versátil que se adapta a diferentes sabores e ingredientes.",
+    "categoria": "Ensaladas",
+    "subcategoria": "Ensaladas con pasta",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Hervido (pasta) y mezclado en frío",
+    "ingredientes": ["Pasta", "Verduras variadas", "Aderezo", "Hierbas", "Opcionalmente carnes o quesos"],
+    "forma_de_servir": "Se sirve fría o a temperatura ambiente, generalmente en un bowl grande como plato principal o acompañamiento.",
+    "equivalentes": ["Pasta salad", "Ensalada de pasta"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37359,
+    "nombre del pictograma": [
+      "arepa"
+    ],
+    "definicion": "Pan redondo y plano hecho de masa de maíz precocido o de harina de maíz. Es un alimento básico en la gastronomía de Venezuela y Colombia, donde se come a diario.",
+    "categoria": "Panes y masas",
+    "subcategoria": "Panes de maíz",
+    "origen": "Venezuela/Colombia",
+    "tipo_de_coccion": "Asado en plancha o frito",
+    "ingredientes": ["Harina de maíz precocida", "Agua", "Sal"],
+    "forma_de_servir": "Se sirve caliente, generalmente rellena de carnes, quesos, aguacate u otros ingredientes, o como acompañamiento de platos principales.",
+    "equivalentes": ["Cachapa", "Gordita", "Pan de maíz"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37506,
+    "nombre del pictograma": [
+      "plataninas",
+      "platanitos",
+      "platanutres",
+      "chicharritas",
+      "chips de banana"
+    ],
+    "definicion": "Rodajas finas de plátano verde fritas hasta quedar crujientes. Son un snack popular en muchos países de América Latina y el Caribe.",
+    "categoria": "Aperitivos",
+    "subcategoria": "Snacks fritos",
+    "origen": "América Latina y Caribe",
+    "tipo_de_coccion": "Frito",
+    "ingredientes": ["Plátano verde", "Aceite", "Sal"],
+    "forma_de_servir": "Se sirven como snack en bolsas o recipientes, frecuentemente salados, a veces con limón o especias.",
+    "equivalentes": ["Tostones en chips", "Mariquitas", "Chifles"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37734,
+    "nombre del pictograma": [
+      "té frío",
+      "iced tea"
+    ],
+    "definicion": "Bebida refrescante hecha a base de té que se sirve fría con hielo. Puede ser endulzada o saborizada con frutas, hierbas o especias.",
+    "categoria": "Bebidas",
+    "subcategoria": "Bebidas frías no alcohólicas",
+    "origen": "Estados Unidos/Internacional",
+    "tipo_de_coccion": "Infusión enfriada",
+    "ingredientes": ["Té negro o verde", "Agua", "Hielo", "Azúcar o edulcorante (opcional)", "Limón u otras frutas (opcional)"],
+    "forma_de_servir": "Se sirve en vaso alto con hielo, a menudo adornado con rodajas de limón o menta.",
+    "equivalentes": ["Té helado", "Iced tea", "Cold brew tea"]
+  },
+  {
+    "id del pictograma de ARASAAC": 37883,
+    "nombre del pictograma": [
+      "galletita salada"
+    ],
+    "definicion": "Galleta crujiente elaborada con harina, agua, grasa y sal, generalmente fina y de sabor neutro. Se utiliza tanto para acompañamiento como base para aperitivos.",
+    "categoria": "Panificados",
+    "subcategoria": "Galletas y crackers",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Horneado",
+    "ingredientes": ["Harina", "Agua", "Grasa vegetal", "Sal", "Levadura (a veces)"],
+    "forma_de_servir": "Se sirve como aperitivo, acompañamiento de quesos o patés, o como base para canapés.",
+    "equivalentes": ["Cracker", "Galleta de agua", "Galleta de soda"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38007,
+    "nombre del pictograma": [
+      "puré de vegetales",
+      "crema de vegetales",
+      "sopa de verduras"
+    ],
+    "definicion": "Plato elaborado con verduras cocidas y trituradas hasta obtener una textura suave y cremosa. Puede servirse caliente como sopa o frío como guarnición.",
+    "categoria": "Sopas y cremas",
+    "subcategoria": "Cremas vegetales",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Hervido y triturado",
+    "ingredientes": ["Verduras variadas", "Caldo o agua", "Crema o leche (opcional)", "Sal", "Especias"],
+    "forma_de_servir": "Caliente en taza o plato hondo, frecuentemente con guarniciones como crutones o hierbas frescas.",
+    "equivalentes": ["Vichyssoise (si lleva papa y puerro)", "Sopa crema de verduras", "Velouté de vegetales"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38008,
+    "nombre del pictograma": [
+      "tortillas de bacalao"
+    ],
+    "definicion": "Preparación a base de bacalao desmenuzado mezclado con huevo batido y otros ingredientes, que se fríe en forma de pequeñas tortitas. Plato típico de la cocina española y portuguesa.",
+    "categoria": "Pescados",
+    "subcategoria": "Preparaciones con bacalao",
+    "origen": "España/Portugal",
+    "tipo_de_coccion": "Frito",
+    "ingredientes": ["Bacalao desalado", "Huevos", "Perejil", "Cebolla", "Aceite de oliva"],
+    "forma_de_servir": "Se sirven calientes como tapa o entrante, generalmente acompañadas de una salsa o alioli.",
+    "equivalentes": ["Pataniscas de bacalhau", "Buñuelos de bacalao", "Fritters de bacalao"]
+  },
+  {
+    "id del pictograma de ARASAAC": 4967,
+    "nombre del pictograma": [
+      "omelette"
+    ],
+    "definicion": "Preparación a base de huevos batidos cocinados en sartén y doblados sobre sí mismos, generalmente con relleno. Es un plato versátil de la cocina francesa adaptado a nivel internacional.",
+    "categoria": "Huevos",
+    "subcategoria": "Preparaciones con huevo",
+    "origen": "Francia",
+    "tipo_de_coccion": "Salteado en sartén",
+    "ingredientes": ["Huevos", "Sal", "Mantequilla o aceite", "Rellenos varios (queso, jamón, vegetales)"],
+    "forma_de_servir": "Se sirve caliente, generalmente doblado en media luna, como desayuno o plato ligero.",
+    "equivalentes": ["Tortilla francesa", "Omelet", "Frittata (variante italiana)"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38114,
+    "nombre del pictograma": [
+      "torta frita"
+    ],
+    "definicion": "Masa de harina, agua y grasa frita en aceite o grasa animal. Es un alimento tradicional de Uruguay, Argentina y Paraguay, especialmente popular en días lluviosos o para acompañar el mate.",
+    "categoria": "Panificados",
+    "subcategoria": "Frituras de masa",
+    "origen": "Uruguay/Argentina/Paraguay",
+    "tipo_de_coccion": "Frito",
+    "ingredientes": ["Harina", "Agua", "Grasa", "Sal", "Levadura (opcional)"],
+    "forma_de_servir": "Se sirve caliente, sola o espolvoreada con azúcar, como merienda o para acompañar el mate.",
+    "equivalentes": ["Sopaipilla", "Torta asada", "Kreppel"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38312,
+    "nombre del pictograma": [
+      "té de menta",
+      "té moruno",
+      "atay",
+      "té de menta",
+      "té con yerbabuena",
+      "té con hierbabuena"
+    ],
+    "definicion": "Infusión preparada con té verde y hojas frescas de menta o hierbabuena. Es la bebida nacional de Marruecos y muy popular en todo el norte de África y Oriente Medio.",
+    "categoria": "Bebidas",
+    "subcategoria": "Infusiones",
+    "origen": "Marruecos/Norte de África",
+    "tipo_de_coccion": "Infusión",
+    "ingredientes": ["Té verde", "Hojas de menta fresca", "Azúcar", "Agua"],
+    "forma_de_servir": "Se sirve caliente en vasos pequeños, tradicionalmente vertido desde altura para crear espuma.",
+    "equivalentes": ["Touareg", "Shay bi na'na", "Té marroquí"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38438,
+    "nombre del pictograma": [
+      "chispas de chocolate",
+      "gotas de chocolate"
+    ],
+    "definicion": "Pequeñas piezas de chocolate en forma de gotas diseñadas para hornear. Se utilizan principalmente en repostería para galletas, muffins y otros postres donde mantienen su forma durante la cocción.",
+    "categoria": "Repostería",
+    "subcategoria": "Ingredientes para hornear",
+    "origen": "Estados Unidos",
+    "tipo_de_coccion": "No requiere (ingrediente)",
+    "ingredientes": ["Chocolate", "Manteca de cacao", "Azúcar", "Lecitina de soya (estabilizante)"],
+    "forma_de_servir": "Se incorporan en masas para hornear o como topping decorativo en postres.",
+    "equivalentes": ["Chips de chocolate", "Pepitas de chocolate", "Chocolate chips"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38484,
+    "nombre del pictograma": [
+      "crutones",
+      "cubitos de pan tostado"
+    ],
+    "definicion": "Pequeños cubos de pan tostado o frito con aceite o mantequilla y sazonados. Se utilizan principalmente como guarnición en sopas y ensaladas para añadir textura crujiente.",
+    "categoria": "Guarniciones",
+    "subcategoria": "Complementos para sopas y ensaladas",
+    "origen": "Francia",
+    "tipo_de_coccion": "Tostado u horneado",
+    "ingredientes": ["Pan (preferentemente del día anterior)", "Aceite o mantequilla", "Sal", "Hierbas y especias"],
+    "forma_de_servir": "Como topping sobre ensaladas o sopas, o como acompañamiento de patés y dips.",
+    "equivalentes": ["Picatostes", "Croutons", "Daditos de pan tostado"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38485,
+    "nombre del pictograma": [
+      "café con hielo",
+      "iced coffee"
+    ],
+    "definicion": "Bebida a base de café preparado y enfriado, servida con hielo. Puede incluir leche, crema, azúcar o jarabes saborizantes para crear diferentes variantes.",
+    "categoria": "Bebidas",
+    "subcategoria": "Cafés fríos",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Café preparado enfriado o cold brew",
+    "ingredientes": ["Café", "Hielo", "Leche o crema (opcional)", "Azúcar o edulcorante (opcional)"],
+    "forma_de_servir": "En vaso alto con hielo, a veces con crema batida por encima y jarabes saborizantes.",
+    "equivalentes": ["Café helado", "Cold coffee", "Frappé (variante griega)"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38488,
+    "nombre del pictograma": [
+      "leche de almendras"
+    ],
+    "definicion": "Bebida vegetal elaborada a partir de almendras molidas y agua. Es una alternativa popular a la leche de origen animal, utilizada tanto para beber directamente como en preparaciones culinarias.",
+    "categoria": "Bebidas",
+    "subcategoria": "Leches vegetales",
+    "origen": "Mediterráneo/Internacional",
+    "tipo_de_coccion": "Triturado y filtrado",
+    "ingredientes": ["Almendras", "Agua", "Sal (opcional)", "Edulcorante (opcional)"],
+    "forma_de_servir": "Se sirve fría en vaso o se utiliza como ingrediente en recetas dulces y saladas.",
+    "equivalentes": ["Bebida de almendra", "Almond milk", "Horchata de almendras"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38489,
+    "nombre del pictograma": [
+      "jarabe de caramelo"
+    ],
+    "definicion": "Líquido espeso y dulce elaborado a partir de azúcar caramelizado disuelto en agua o almíbar. Se utiliza como endulzante y saborizante en bebidas y postres.",
+    "categoria": "Condimentos y salsas",
+    "subcategoria": "Jarabes y siropes",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Caramelización y disolución",
+    "ingredientes": ["Azúcar", "Agua", "Vainilla (opcional)", "Sal (opcional)"],
+    "forma_de_servir": "Como topping para postres o como endulzante y saborizante para bebidas como café y cócteles.",
+    "equivalentes": ["Sirope de caramelo", "Salsa de caramelo", "Caramel syrup"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38527,
+    "nombre del pictograma": [
+      "quinoa",
+      "quínoa",
+      "quinoa",
+      "quinua",
+      "quinua",
+      "quínoa"
+    ],
+    "definicion": "Semilla comestible de la planta Chenopodium quinoa, originaria de los Andes. Destacada por su alto valor nutritivo, es considerada un superalimento rico en proteínas completas y minerales.",
+    "categoria": "Cereales y semillas",
+    "subcategoria": "Pseudocereales",
+    "origen": "Región andina (Perú, Bolivia, Ecuador)",
+    "tipo_de_coccion": "Hervido",
+    "ingredientes": ["Semillas de quinoa"],
+    "forma_de_servir": "Como acompañamiento similar al arroz, en ensaladas, sopas o como base para bowls nutritivos.",
+    "equivalentes": ["Quinua", "Arroz de los Incas", "Quinoa real"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38528,
+    "nombre del pictograma": [
+      "huevos revueltos"
+    ],
+    "definicion": "Preparación de huevos batidos cocinados en sartén mientras se revuelven constantemente. El resultado es una textura suave y cremosa, distinta a otros métodos de cocción de huevo.",
+    "categoria": "Huevos",
+    "subcategoria": "Preparaciones con huevo",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Salteado a fuego lento",
+    "ingredientes": ["Huevos", "Sal", "Pimienta", "Mantequilla o aceite", "Leche o crema (opcional)"],
+    "forma_de_servir": "Calientes, como parte del desayuno, generalmente acompañados de pan tostado, tocino o vegetales.",
+    "equivalentes": ["Scrambled eggs", "Œufs brouillés", "Huevos pericos (con cebolla y tomate)"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38673,
+    "nombre del pictograma": [
+      "sanguche de mortadela"
+    ],
+    "definicion": "Emparedado elaborado con pan y mortadela, un embutido de origen italiano hecho de carne de cerdo finamente picada. Es un sándwich simple y popular en muchos países.",
+    "categoria": "Sandwiches",
+    "subcategoria": "Sandwiches de fiambres",
+    "origen": "Italia/Internacional",
+    "tipo_de_coccion": "Sin cocción (ensamblado)",
+    "ingredientes": ["Pan", "Mortadela", "Mayonesa o mantequilla (opcional)", "Vegetales o condimentos (opcional)"],
+    "forma_de_servir": "Como tentempié o merienda, frío, generalmente cortado en mitades.",
+    "equivalentes": ["Sandwich de mortadela", "Panino con mortadella", "Bologna sandwich"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38738,
+    "nombre del pictograma": [
+      "postresito de chocolate"
+    ],
+    "definicion": "Postre lácteo individual de textura cremosa y sabor a chocolate. Generalmente comercializado en pequeños recipientes listos para consumir y orientado especialmente al público infantil.",
+    "categoria": "Postres",
+    "subcategoria": "Postres lácteos",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Preparación industrial sin cocción casera",
+    "ingredientes": ["Leche", "Crema", "Chocolate", "Azúcar", "Espesantes"],
+    "forma_de_servir": "En su envase individual, frío, con una cuchara pequeña.",
+    "equivalentes": ["Chocolatín", "Pudín de chocolate", "Chocolate pudding"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38770,
+    "nombre del pictograma": [
+      "grisines",
+      "palitos de pan",
+      "picos",
+      "picos de pan"
+    ],
+    "definicion": "Bastones finos y crujientes de pan horneado, originarios de Italia. Se caracterizan por su textura seca y crujiente, y pueden ser simples o estar sazonados con semillas o especias.",
+    "categoria": "Panificados",
+    "subcategoria": "Panes crujientes",
+    "origen": "Italia",
+    "tipo_de_coccion": "Horneado",
+    "ingredientes": ["Harina", "Agua", "Levadura", "Sal", "Aceite de oliva"],
+    "forma_de_servir": "Como aperitivo o acompañamiento de platos, solos o junto a dips, patés o quesos.",
+    "equivalentes": ["Grissini", "Breadsticks", "Bastoncillos de pan"]
+  },
+  {
+    "id del pictograma de ARASAAC": 9055,
+    "nombre del pictograma": [
+      "budín de pan"
+    ],
+    "definicion": "Postre elaborado con pan remojado en leche, huevos, azúcar y otros ingredientes, horneado hasta obtener una textura suave y húmeda. Es un postre tradicional que aprovecha el pan duro o sobrante.",
+    "categoria": "Postres",
+    "subcategoria": "Postres horneados",
+    "origen": "Internacional (variantes en muchas culturas)",
+    "tipo_de_coccion": "Horneado",
+    "ingredientes": ["Pan (preferentemente del día anterior)", "Leche", "Huevos", "Azúcar", "Canela o vainilla"],
+    "forma_de_servir": "Se sirve tibio o frío, a menudo con caramelo por encima o acompañado de crema o helado.",
+    "equivalentes": ["Pudín de pan", "Bread pudding", "Diplomático"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38915,
+    "nombre del pictograma": [
+      "focaccia"
+    ],
+    "definicion": "Pan plano italiano horneado con aceite de oliva, sal y hierbas. Tiene una textura esponjosa por dentro y crujiente por fuera, a menudo adornado con ingredientes adicionales en su superficie.",
+    "categoria": "Panificados",
+    "subcategoria": "Panes planos",
+    "origen": "Italia",
+    "tipo_de_coccion": "Horneado",
+    "ingredientes": ["Harina", "Agua", "Levadura", "Sal", "Aceite de oliva", "Hierbas aromáticas"],
+    "forma_de_servir": "Se sirve como acompañamiento de comidas, aperitivo o base para sándwiches, generalmente cortada en porciones cuadradas o rectangulares.",
+    "equivalentes": ["Fugazza", "Pan de aceite y hierbas", "Pizza bianca"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38951,
+    "nombre del pictograma": [
+      "filete de beicon",
+      "bife de panceta",
+      "filete de panceta",
+      "bife de panceta"
+    ],
+    "definicion": "Corte de carne que proviene de la panceta del cerdo, caracterizado por tener capas alternadas de carne y grasa. Se presenta en lonchas finas y se cocina hasta quedar crujiente.",
+    "categoria": "Carnes",
+    "subcategoria": "Cerdo",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Frito o a la plancha",
+    "ingredientes": ["Panceta de cerdo", "Sal", "Condimentos (opcionales)"],
+    "forma_de_servir": "Como acompañamiento de desayunos, en hamburguesas, sándwiches o como ingrediente en diversas preparaciones.",
+    "equivalentes": ["Tocino", "Bacon", "Panceta ahumada"]
+  },
+  {
+    "id del pictograma de ARASAAC": 38953,
+    "nombre del pictograma": [
+      "rodaja de tomate",
+      "feta de tomate"
+    ],
+    "definicion": "Corte circular y fino de tomate fresco. Se utiliza en numerosas preparaciones culinarias tanto como ingrediente principal como guarnición.",
+    "categoria": "Vegetales",
+    "subcategoria": "Preparaciones de verduras",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Sin cocción (ingrediente fresco)",
+    "ingredientes": ["Tomate"],
+    "forma_de_servir": "Como parte de ensaladas, sándwiches, hamburguesas o como guarnición de diversos platos.",
+    "equivalentes": ["Loncha de tomate", "Rebanada de tomate", "Slice de tomate"]
+  },
+  {
+    "id del pictograma de ARASAAC": 39058,
+    "nombre del pictograma": [
+      "pretzel",
+      "rosquillas saladas",
+      "tortas fritas"
+    ],
+    "definicion": "Pan con forma característica de nudo retorcido, originario de Alemania. Tiene una superficie brillante y marrón, y una textura crujiente por fuera y suave por dentro, generalmente salado.",
+    "categoria": "Panificados",
+    "subcategoria": "Panes especiales",
+    "origen": "Alemania",
+    "tipo_de_coccion": "Horneado con baño de soda cáustica previo",
+    "ingredientes": ["Harina", "Agua", "Levadura", "Sal gruesa", "Bicarbonato de sodio (para el baño)"],
+    "forma_de_servir": "Como snack o aperitivo, solo o acompañado de mostaza o queso para untar.",
+    "equivalentes": ["Brezel", "Bretzel", "Salzbrezel"]
+  },
+  {
+    "id del pictograma de ARASAAC": 2625,
+    "nombre del pictograma": [
+      "jugo de ananá",
+      "jugo de piña"
+    ],
+    "definicion": "Bebida elaborada a partir del zumo extraído de la piña o ananá fresca. Tiene un sabor dulce y ácido característico, y es rico en vitamina C y bromelina.",
+    "categoria": "Bebidas",
+    "subcategoria": "Jugos de frutas",
+    "origen": "Zonas tropicales (América Central, Sudamérica, Caribe)",
+    "tipo_de_coccion": "Extracción y filtrado",
+    "ingredientes": ["Piña o ananá", "Agua (opcional)", "Azúcar (opcional)"],
+    "forma_de_servir": "Frío en vaso, puro o con hielo, a veces con una rodaja de piña como decoración.",
+    "equivalentes": ["Zumo de piña", "Pineapple juice", "Néctar de ananá"]
+  },
+  {
+    "id del pictograma de ARASAAC": 2624,
+    "nombre del pictograma": [
+      "jugo de naranja"
+    ],
+    "definicion": "Bebida obtenida al exprimir naranjas frescas. Es uno de los jugos más populares a nivel mundial, valorado por su sabor refrescante y su contenido de vitamina C.",
+    "categoria": "Bebidas",
+    "subcategoria": "Jugos de frutas",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Extracción y filtrado",
+    "ingredientes": ["Naranjas", "Azúcar (opcional)"],
+    "forma_de_servir": "Frío en vaso, generalmente durante el desayuno o como refresco a lo largo del día.",
+    "equivalentes": ["Zumo de naranja", "Orange juice", "Jugo exprimido de naranja"]
+  },
+  {
+    "id del pictograma de ARASAAC": 3248,
+    "nombre del pictograma": [
+      "jugo de durazno"
+    ],
+    "definicion": "Bebida elaborada a partir de duraznos o melocotones, ya sea mediante extracción directa del jugo o dilución de pulpa. Tiene un sabor dulce y aromático característico de esta fruta.",
+    "categoria": "Bebidas",
+    "subcategoria": "Jugos de frutas",
+    "origen": "Internacional",
+    "tipo_de_coccion": "Extracción, procesado y filtrado",
+    "ingredientes": ["Duraznos o melocotones", "Agua", "Azúcar (opcional)"],
+    "forma_de_servir": "Frío en vaso, puro o con hielo, generalmente como refresco o parte del desayuno.",
+    "equivalentes": ["Zumo de melocotón", "Peach juice", "Néctar de durazno"]
+  },
+
+    {
+      "id del pictograma de ARASAAC": 3249,
+      "nombre del pictograma": [
+        "albóndigas"
+      ],
+      "definicion": "Pequeñas bolas de carne picada mezclada con pan rallado, huevo y condimentos, que se cocinan generalmente en salsa. Son un plato tradicional presente en numerosas culturas gastronómicas alrededor del mundo.",
+      "categoria": "Carnes",
+      "subcategoria": "Preparaciones de carne picada",
+      "origen": "Internacional (variantes en múltiples culturas)",
+      "tipo_de_coccion": "Frito y/o guisado",
+      "ingredientes": ["Carne picada", "Pan rallado", "Huevo", "Cebolla", "Ajo", "Especias", "Aceite"],
+      "forma_de_servir": "Calientes, generalmente en su salsa y acompañadas de pasta, arroz o puré de patatas.",
+      "equivalentes": ["Meatballs", "Kofta", "Polpette", "Köfte"]
+    },
+    {
+      "id del pictograma de ARASAAC": 3262,
+      "nombre del pictograma": [
+        "churros"
+      ],
+      "definicion": "Masa de harina y agua frita en aceite, con forma alargada y estriada. Son un dulce tradicional de la gastronomía española y latinoamericana, generalmente consumidos en el desayuno o como merienda.",
+      "categoria": "Dulces y repostería",
+      "subcategoria": "Masas fritas",
+      "origen": "España",
+      "tipo_de_coccion": "Frito",
+      "ingredientes": ["Harina", "Agua", "Sal", "Aceite para freír", "Azúcar para espolvorear"],
+      "forma_de_servir": "Calientes, espolvoreados con azúcar, solos o acompañados de chocolate caliente para mojar.",
+      "equivalentes": ["Porras (más gruesos)", "Tejeringos", "Fritters"]
+    },
+    {
+      "id del pictograma de ARASAAC": 13034,
+      "nombre del pictograma": [
+        "arándanos"
+      ],
+      "definicion": "Pequeñas bayas comestibles de color azul oscuro, pertenecientes principalmente a las plantas del género Vaccinium. Son conocidos por su sabor agridulce y sus propiedades antioxidantes.",
+      "categoria": "Frutas",
+      "subcategoria": "Bayas",
+      "origen": "América del Norte y Europa",
+      "tipo_de_coccion": "Sin cocción (consumo fresco)",
+      "ingredientes": ["Arándanos"],
+      "forma_de_servir": "Frescos, como snack, en ensaladas de frutas, postres, o como ingrediente en productos de panadería y repostería.",
+      "equivalentes": ["Blueberries", "Mirtillos", "Bayas azules"]
+    },
+    {
+      "id del pictograma de ARASAAC": 10224,
+      "nombre del pictograma": [
+        "coco"
+      ],
+      "definicion": "Fruto de la palmera cocotera (Cocos nucifera), caracterizado por su dura cáscara exterior, una capa intermedia fibrosa y un interior hueco que contiene agua de coco y pulpa blanca comestible.",
+      "categoria": "Frutas",
+      "subcategoria": "Frutas tropicales",
+      "origen": "Regiones tropicales (Sudeste asiático, Islas del Pacífico)",
+      "tipo_de_coccion": "Sin cocción (aunque su pulpa puede procesarse de diversas formas)",
+      "ingredientes": ["Coco"],
+      "forma_de_servir": "La pulpa se consume fresca, rallada, en trozos, o se utiliza para extraer leche o aceite de coco. El agua se bebe directamente.",
+      "equivalentes": ["Coconut", "Nuez de coco", "Copra (pulpa seca)"]
+    },
+    {
+      "id del pictograma de ARASAAC": 8684,
+      "nombre del pictograma": [
+        "rodaja de limón"
+      ],
+      "definicion": "Corte circular fino de limón, que muestra la pulpa cítrica segmentada y la cáscara exterior. Se utiliza tanto para aportar sabor como para decoración en diferentes preparaciones culinarias y bebidas.",
+      "categoria": "Frutas",
+      "subcategoria": "Cítricos cortados",
+      "origen": "Internacional",
+      "tipo_de_coccion": "Sin cocción (ingrediente fresco)",
+      "ingredientes": ["Limón"],
+      "forma_de_servir": "Como guarnición para pescados y mariscos, para exprimir sobre alimentos, o como decoración y saborizante en bebidas.",
+      "equivalentes": ["Slice de limón", "Rueda de limón", "Lemon slice"]
+    },
+    {
+      "id del pictograma de ARASAAC": 2468,
+      "nombre del pictograma": [
+        "durazno"
+      ],
+      "definicion": "Fruta carnosa de la familia de las rosáceas, de piel aterciopelada, pulpa jugosa y dulce, y un hueso central duro. Es rico en vitaminas y minerales, con un aroma característico.",
+      "categoria": "Frutas",
+      "subcategoria": "Frutas de carozo",
+      "origen": "China (originalmente), difundido globalmente",
+      "tipo_de_coccion": "Sin cocción (consumo fresco, aunque puede cocinarse en diversas preparaciones)",
+      "ingredientes": ["Durazno"],
+      "forma_de_servir": "Fresco y crudo, en ensaladas de frutas, en conserva, o como ingrediente en postres y mermeladas.",
+      "equivalentes": ["Melocotón", "Peach", "Pêssego"]
+    },
+    {
+      "id del pictograma de ARASAAC": 2400,
+      "nombre del pictograma": [
+        "frutilla"
+      ],
+      "definicion": "Fruto comestible de color rojo brillante, proveniente de plantas del género Fragaria. Se caracteriza por su forma cónica, pequeñas semillas en su superficie, sabor dulce y aroma intenso.",
+      "categoria": "Frutas",
+      "subcategoria": "Bayas",
+      "origen": "Híbrido cultivado (Américas y Europa)",
+      "tipo_de_coccion": "Sin cocción (consumo fresco, aunque puede utilizarse en preparaciones cocinadas)",
+      "ingredientes": ["Frutilla"],
+      "forma_de_servir": "Frescas, en ensaladas de frutas, con crema, en postres, o procesadas en mermeladas, jugos y helados.",
+      "equivalentes": ["Fresa", "Strawberry", "Morango"]
+    },
+    {
+      "id del pictograma de ARASAAC": 2906,
+      "nombre del pictograma": [
+        "frutos rojos"
+      ],
+      "definicion": "Conjunto de pequeñas frutas caracterizadas por su color rojizo a púrpura, que incluyen fresas, frambuesas, moras, arándanos y grosellas entre otras. Son valoradas por su sabor, propiedades antioxidantes y versatilidad culinaria.",
+      "categoria": "Frutas",
+      "subcategoria": "Bayas",
+      "origen": "Variado según cada tipo de fruta",
+      "tipo_de_coccion": "Sin cocción (consumo fresco, aunque se utilizan en múltiples preparaciones)",
+      "ingredientes": ["Mezcla de bayas como fresas, frambuesas, moras, arándanos, grosellas"],
+      "forma_de_servir": "Frescos como snack, en ensaladas de frutas, postres, batidos, o como decoración de platos.",
+      "equivalentes": ["Berries", "Frutas del bosque", "Bayas mixtas", "Red fruits"]
+    }
+  ]

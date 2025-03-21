@@ -1,0 +1,59 @@
+{
+  "alimentos": [
+    {
+      "nombre": "torta frita",
+      "definicion": "La torta frita es un alimento típico de la gastronomía argentina y uruguaya, consistente en una masa de harina, grasa y agua que se fríe en aceite caliente hasta que queda dorada y crujiente en el exterior y suave en el interior.",
+      "categoria": "postres",
+      "subcategoria": "frituras",
+      "origen": "Argentina y Uruguay",
+      "tipo_de_coccion": "frito",
+      "ingredientes": ["harina", "grasa", "agua"],
+      "forma_de_servir": "Caliente, espolvoreada con azúcar o servida con dulce de leche",
+      "equivalentes": ["sopaipilla", "buñuelo de viento"]
+    },
+    {
+      "nombre": "té de menta",
+      "definicion": "El té de menta es una infusión caliente que se prepara con hojas de menta fresca o seca y agua caliente. Es una bebida refrescante y aromática, conocida por sus propiedades digestivas y relajantes.",
+      "categoria": "bebidas",
+      "subcategoria": "infusiones",
+      "origen": "Mundo árabe",
+      "tipo_de_coccion": "infusión",
+      "ingredientes": ["hojas de menta", "agua"],
+      "forma_de_servir": "Caliente, endulzado con azúcar o miel",
+      "equivalentes": ["té de hierbabuena", "nana tea"]
+    },
+    {
+      "nombre": "chispas de chocolate",
+      "definicion": "Las chispas de chocolate son pequeñas piezas de chocolate sólido que se utilizan como decoración en postres o como ingrediente en la elaboración de galletas, brownies y otros productos de repostería.",
+      "categoria": "postres",
+      "subcategoria": "repostería",
+      "origen": "Estados Unidos",
+      "tipo_de_coccion": "ninguno",
+      "ingredientes": ["chocolate"],
+      "forma_de_servir": "Como ingrediente en la repostería",
+      "equivalentes": ["gotas de chocolate", "chocolate chips"]
+    },
+    {
+      "nombre": "crutones",
+      "definicion": "Los crutones son trozos pequeños de pan tostado o frito que se utilizan para darle textura y sabor a las ensaladas, sopas o cremas. Son crujientes y se pueden sazonar con hierbas, ajo o queso.",
+      "categoria": "guarniciones",
+      "subcategoria": "panadería",
+      "origen": "Europa",
+      "tipo_de_coccion": "tostado o frito",
+      "ingredientes": ["pan", "aceite", "sal"],
+      "forma_de_servir": "Como acompañamiento de ensaladas, sopas o cremas",
+      "equivalentes": ["picatostes", "croûtons"]
+    },
+    {
+      "nombre": "café con hielo",
+      "definicion": "El café con hielo es una bebida refrescante que se prepara con café espresso o café filtrado, servido sobre hielo en un vaso alto. Se puede endulzar con azúcar, sirope o leche condensada.",
+      "categoria": "bebidas",
+      "subcategoria": "café",
+      "origen": "Internacional",
+      "tipo_de_coccion": "ninguno",
+      "ingredientes": ["café", "hielo"],
+      "forma_de_servir": "Servido en un vaso alto con hielo",
+      "equivalentes": ["iced coffee", "café frappé"]
+    }
+  ]
+}
