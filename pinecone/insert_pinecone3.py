@@ -13,7 +13,7 @@ load_dotenv()
 # Configuración de credenciales (recomendado usar variables de entorno)
 PINECONE_API_KEY = os.environ.get("PINECONE_API")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-NAMESPACE = "pictogramas_ada"  # Namespace específico para los pictogramas
+NAMESPACE = "pictogramas_ada_enriquecidos"  # Namespace específico para los pictogramas
 
 # Usar el índice existente
 INDEX_NAME = "rufusmenu"
@@ -58,7 +58,6 @@ def generar_embedding(texto: str) -> List[float]:
     )
     return response.data[0].embedding
 
-
 def insertar_pictogramas(datos: List[Dict[str, Any]], index):
     """Inserta pictogramas en el índice dentro del namespace especificado (1 vector por pictograma)."""
     vectores = []
@@ -82,19 +81,39 @@ def insertar_pictogramas(datos: List[Dict[str, Any]], index):
         nombres_str = ", ".join(nombres)
         definicion = pictograma.get("definicion", "")
         
+        # Texto que se usará para generar el embedding
         texto = f'nombre del pictograma: {nombres_str}'
         if definicion:
             texto += f'\ndefinicion: {definicion}'
         
         print(f"[{idx+1}/{total_pictogramas}] Generando embedding para ID {id_pictograma}")
         embedding = generar_embedding(texto)
-        
+
+        # Construir metadatos válidos para Pinecone
         metadata = {
             "id": id_pictograma,
-            "nombre del pictograma": nombres_str
-            
+            "nombre del pictograma": nombres_str,
         }
-        
+
+        # Campos string que deben ser convertidos si no son nulos
+        campos_extra = [
+            "definicion", "categoria", "subcategoria",
+            "origen", "tipo_de_coccion", "forma_de_servir"
+        ]
+        for campo in campos_extra:
+            valor = pictograma.get(campo)
+            if valor is not None:
+                metadata[campo] = str(valor)
+
+        # Campos que son listas de strings
+        for campo_lista in ["ingredientes", "equivalentes"]:
+            valor = pictograma.get(campo_lista)
+            if isinstance(valor, list):
+                lista_limpia = [str(v) for v in valor if isinstance(v, str)]
+                if lista_limpia:
+                    metadata[campo_lista] = lista_limpia
+
+        # Crear vector final
         vectores.append({
             "id": id_pictograma,
             "values": embedding,
@@ -102,17 +121,19 @@ def insertar_pictogramas(datos: List[Dict[str, Any]], index):
         })
         
         # Enviar en lotes de 100
-        if len(vectores) >= 100:
+        if len(vectores) >= 30:
             print(f"🔄 Insertando lote de 100 vectores...")
             index.upsert(vectors=vectores, namespace=NAMESPACE)
             vectores = []
-    
+
     # Insertar lote final
     if vectores:
         print(f"🔄 Insertando lote final de {len(vectores)} vectores...")
         index.upsert(vectors=vectores, namespace=NAMESPACE)
     
     print("🎉 Inserción finalizada.")
+
+
 
 
 def buscar_pictograma(consulta: str, index_name=None, top_k: int = 5):

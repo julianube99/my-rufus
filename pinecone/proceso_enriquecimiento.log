@@ -1,257 +1,58 @@
-2025-03-21 16:00:49,623 - INFO - === INICIO DEL PROCESO DE ENRIQUECIMIENTO ===
-2025-03-21 16:00:49,623 - INFO - Iniciando enriquecimiento de 158 pictogramas
-2025-03-21 16:00:49,623 - INFO - Enviando solicitud para lote: ['lomito', 'camarones fritos', 'canelones', 'nuggets de pescado', 'sushi']
-2025-03-21 16:00:56,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:00:56,080 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:00:58,082 - INFO - Enviando solicitud para lote: ['wrap', 'quesadillas', 'berenjenas', 'untable de garbanzos', 'tarta de jamon y queso']
-2025-03-21 16:01:13,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:13,781 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:15,784 - INFO - Enviando solicitud para lote: ['paella', 'empanadas', 'papas fritas', 'tortilla de papa', 'provoleta']
-2025-03-21 16:01:23,476 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:23,479 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:25,480 - INFO - Enviando solicitud para lote: ['limonada', 'rabas', 'queso', 'picada', 'fiambre']
-2025-03-21 16:01:31,645 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:31,651 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:31,652 - INFO - Guardado progreso: 20/158 pictogramas
-2025-03-21 16:01:31,653 - INFO - Guardado progreso: 20/158 pictogramas
-2025-03-21 16:01:31,654 - INFO - Guardado progreso: 20/158 pictogramas
-2025-03-21 16:01:31,656 - INFO - Guardado progreso: 20/158 pictogramas
-2025-03-21 16:01:31,657 - INFO - Guardado progreso: 20/158 pictogramas
-2025-03-21 16:01:33,658 - INFO - Enviando solicitud para lote: ['ensalada', 'pescado a la romana', 'salmón', 'asado', 'costilla']
-2025-03-21 16:01:40,597 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:40,598 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:42,600 - INFO - Enviando solicitud para lote: ['carne', 'bife de vaca', 'milanesa de carne', 'pechuga de pollo', 'pollo']
-2025-03-21 16:01:48,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:48,393 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:50,394 - INFO - Enviando solicitud para lote: ['pollo con papas', 'tostado de jamon y queso', 'sándwich', 'palta', 'tortita']
-2025-03-21 16:01:57,572 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:01:57,574 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:01:59,576 - INFO - Enviando solicitud para lote: ['verduras', 'sin gluten', 'jamón crudo', 'pancito', 'tiritas de pollo']
-2025-03-21 16:02:06,660 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:06,664 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:06,665 - INFO - Guardado progreso: 40/158 pictogramas
-2025-03-21 16:02:06,666 - INFO - Guardado progreso: 40/158 pictogramas
-2025-03-21 16:02:06,668 - INFO - Guardado progreso: 40/158 pictogramas
-2025-03-21 16:02:06,669 - INFO - Guardado progreso: 40/158 pictogramas
-2025-03-21 16:02:06,670 - INFO - Guardado progreso: 40/158 pictogramas
-2025-03-21 16:02:08,673 - INFO - Enviando solicitud para lote: ['nuggets de pollo', 'guacamole', 'croissant', 'jamón cocido', 'chipá']
-2025-03-21 16:02:15,053 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:15,068 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:17,070 - INFO - Enviando solicitud para lote: ['tostada', 'huevo duro', 'Forma parte de los desayunos de muchas naciones anglosajonas', 'hamburguesa', 'mostacholes']
-2025-03-21 16:02:22,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:22,388 - INFO - Lote procesado correctamente, 4 elementos
-2025-03-21 16:02:24,391 - INFO - Enviando solicitud para lote: ['fideos', 'manteca', 'papa', 'pasta', 'zapallo']
-2025-03-21 16:02:31,499 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:31,500 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:33,503 - INFO - Enviando solicitud para lote: ['lasagna', 'pizza', 'aceitunas verdes', 'anana', 'rúcula']
-2025-03-21 16:02:40,411 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:40,412 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:40,414 - INFO - Guardado progreso: 60/158 pictogramas
-2025-03-21 16:02:40,416 - INFO - Guardado progreso: 60/158 pictogramas
-2025-03-21 16:02:40,418 - INFO - Guardado progreso: 60/158 pictogramas
-2025-03-21 16:02:40,419 - INFO - Guardado progreso: 60/158 pictogramas
-2025-03-21 16:02:40,420 - INFO - Guardado progreso: 60/158 pictogramas
-2025-03-21 16:02:42,423 - INFO - Enviando solicitud para lote: ['queso brie', 'panceta ahumada', 'champiñón', 'queso azul', 'membrillo']
-2025-03-21 16:02:48,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:48,645 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:50,647 - INFO - Enviando solicitud para lote: ['dulce de membrillo', 'flan', 'dulce de leche', 'nata', 'torta de chocolate']
-2025-03-21 16:02:56,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:02:56,617 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:02:58,619 - INFO - Enviando solicitud para lote: ['torta de vainilla', 'tarta', 'chocolate', 'panqueques', 'crepes']
-2025-03-21 16:03:06,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:06,933 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:08,935 - INFO - Enviando solicitud para lote: ['bizcochuelo', 'brownie', 'helados', 'crema batida', 'cuadraditos de manzana']
-2025-03-21 16:03:16,044 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:16,045 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:16,047 - INFO - Guardado progreso: 80/158 pictogramas
-2025-03-21 16:03:16,048 - INFO - Guardado progreso: 80/158 pictogramas
-2025-03-21 16:03:16,050 - INFO - Guardado progreso: 80/158 pictogramas
-2025-03-21 16:03:16,052 - INFO - Guardado progreso: 80/158 pictogramas
-2025-03-21 16:03:16,053 - INFO - Guardado progreso: 80/158 pictogramas
-2025-03-21 16:03:18,056 - INFO - Enviando solicitud para lote: ['manzana', 'maracuyá', 'chocolate blanco', 'cheesecake', 'carrot cake']
-2025-03-21 16:03:24,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:24,521 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:26,522 - INFO - Enviando solicitud para lote: ['tortita', 'budín', 'limón', 'aceite de oliva', 'banana']
-2025-03-21 16:03:32,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:33,030 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:35,032 - INFO - Enviando solicitud para lote: ['cereales', 'yogur', 'fruta', 'bowl con frutas', 'almendras']
-2025-03-21 16:03:40,561 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:40,572 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:42,574 - INFO - Enviando solicitud para lote: ['palmera', 'baguette', 'roll de canela', 'mermelada', 'frutos secos']
-2025-03-21 16:03:49,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:49,119 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:49,121 - INFO - Guardado progreso: 100/158 pictogramas
-2025-03-21 16:03:49,123 - INFO - Guardado progreso: 100/158 pictogramas
-2025-03-21 16:03:49,125 - INFO - Guardado progreso: 100/158 pictogramas
-2025-03-21 16:03:49,127 - INFO - Guardado progreso: 100/158 pictogramas
-2025-03-21 16:03:49,128 - INFO - Guardado progreso: 100/158 pictogramas
-2025-03-21 16:03:51,131 - INFO - Enviando solicitud para lote: ['zanahoria', 'Oreos', 'tomate', 'morrón verde', 'milanesa de peceto']
-2025-03-21 16:03:56,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:03:56,757 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:03:58,759 - INFO - Enviando solicitud para lote: ['cañoncitos de dulce de leche', 'bagel', 'pancho', 'scon', 'dátil']
-2025-03-21 16:04:06,430 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:06,435 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:04:08,437 - INFO - Enviando solicitud para lote: ['alfajor de almendra', 'alfajor de dulce de leche', 'cookies', 'galletitas de avena y pasas', 'panetón']
-2025-03-21 16:04:16,818 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:16,827 - ERROR - Error decodificando JSON: Extra data: line 12 column 1 (char 585)
-2025-03-21 16:04:16,827 - ERROR - Contenido problemático: {
-  "nombre": "alfajor de almendra",
-  "definicion": "El alfajor de almendra es un dulce típico de la gastronomía argentina y uruguaya, consistente en dos galletas de almendra unidas por dulce de leche y cubiertas con azúcar glas. Es un postre tradicional muy popular en la región.",
-  "categoria": "postres",
-  "subcategoria": "dulces",
-  "origen": "Argentina, Uruguay",
-  "tipo_de_coccion": "no aplica",
-  "ingredientes": ["almendra", "dulce de leche", "azúcar glas"],
-  "forma_de_servir": "Se sirve como postre o merienda acompañado de una bebida caliente.",
-  "equivalentes": []
+2025-03-21 19:37:22,332 - INFO - === INICIO DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-21 19:37:22,333 - INFO - Iniciando enriquecimiento de 1 pictogramas
+2025-03-21 19:37:22,333 - INFO - Enviando solicitud para lote: ['pistacho']
+2025-03-21 19:37:27,154 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 19:37:27,175 - ERROR - Error decodificando JSON: Extra data: line 12 column 1 (char 516)
+2025-03-21 19:37:27,175 - ERROR - Contenido problemático: {
+    "nombre": "Pistacho",
+    "definicion": "El pistacho es una semilla comestible de color verde, con sabor ligeramente dulce y salado. Es un fruto seco muy nutritivo y popular en todo el mundo.",
+    "categoria": "Frutos secos",
+    "subcategoria": "Frutos secos",
+    "origen": "Oriente Medio",
+    "tipo_de_coccion": "Tostado",
+    "ingredientes": ["Pistachos"],
+    "forma_de_servir": "Se sirve pelado y tostado, como snack o como ingrediente en postres y platos salados.",
+    "equivalentes": ["Pistache"]
 }
 ```
 
+2. mango
 ```json
 {
-  "nombre": "alfajor de dulce de leche",
-  "definicion": "El alfajor de dulce de leche es un dulce típico de la gastronomía latinoamericana, consistente en dos galletas unidas por dulce de leche y cubiertas con chocolate o azúcar glas. Es un postre muy popular en varios países de la región.",
-  "categoria": "postres",
-  "subcategoria": "dulces",
-  "origen": "Latinoamérica",
-  "tipo_de_coccion": "no aplica",
-  "ingredientes": ["dulce de leche", "galletas", "chocolate"],
-  "forma_de_servir": "Se sirve como postre o merienda acompañado de una bebida caliente.",
-  "equivalentes": []
-}
-```
-
-```json
-{
-  "nombre": "cookies",
-  "definicion": "Las cookies son galletas dulces de origen estadounidense, generalmente elaboradas con harina, azúcar, mantequilla, huevo y chips de chocolate. Son ideales para acompañar con leche en la merienda o como postre.",
-  "categoria": "postres",
-  "subcategoria": "galletas",
-  "origen": "Estados Unidos",
-  "tipo_de_coccion": "horneado",
-  "ingredientes": ["harina", "azúcar", "mantequilla", "huevo", "chocolate"],
-  "forma_de_servir": "Se sirven frías y son ideales para acompañar con leche u otra bebida.",
-  "equivalentes": []
-}
-```
-
-```json
-{
-  "nombre": "galletitas de avena y pasas",
-  "definicion": "Las galletitas de avena y pasas son pequeñas galletas hechas a base de avena, pasas, harina, azúcar y mantequilla. Son un snack saludable y energético para disfrutar en cualquier momento del día.",
-  "categoria": "snacks",
-  "subcategoria": "galletas",
-  "origen": "no aplica",
-  "tipo_de_coccion": "horneado",
-  "ingredientes": ["avena", "pasas", "harina", "azúcar", "mantequilla"],
-  "forma_de_servir": "Se sirven como un snack acompañado de una bebida caliente o fría.",
-  "equivalentes": []
-}
-```
-
-```json
-{
-  "nombre": "panetón",
-  "definicion": "El panetón es un pan dulce tradicional de origen italiano, especialmente consumido durante la época navideña en varios países de habla hispana. Está hecho con harina, levadura, huevos, frutas confitadas y frutos secos, y suele tener una forma alta y redonda.",
-  "categoria": "panes",
-  "subcategoria": "dulces",
-  "origen": "Italia",
-  "tipo_de_coccion": "horneado",
-  "ingredientes": ["harina", "levadura", "huevos", "frutas confitadas", "frutos secos"],
-  "forma_de_servir": "Se sirve en rebanadas como postre o merienda, acompañado de una taza de chocolate caliente.",
-  "equivalentes": ["pan dulce"]
-}
-2025-03-21 16:04:16,827 - WARNING - Reintentando lote (1/3)
-2025-03-21 16:04:20,831 - INFO - Enviando solicitud para lote: ['alfajor de almendra', 'alfajor de dulce de leche', 'cookies', 'galletitas de avena y pasas', 'panetón']
-2025-03-21 16:04:26,677 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:26,678 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:04:28,680 - INFO - Enviando solicitud para lote: ['facturas', 'sanguche de salame', 'café', 'choripán', 'milanesa de cerdo']
-2025-03-21 16:04:36,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:36,103 - ERROR - Error decodificando JSON: Extra data: line 12 column 1 (char 587)
-2025-03-21 16:04:36,103 - ERROR - Contenido problemático: {
-    "nombre": "facturas",
-    "definicion": "Las facturas son una variedad de bollería dulce popular en Argentina y Uruguay. Se caracterizan por ser esponjosas, dulces y estar rellenas con crema pastelera, dulce de leche o frutas.",
-    "categoria": "postres",
-    "subcategoria": "bollería",
-    "origen": "Argentina y Uruguay",
-    "tipo_de_coccion": "horneado",
-    "ingredientes": ["harina", "azúcar", "levadura", "manteca", "huevos"],
-    "forma_de_servir": "generalmente se consumen en el desayuno o la merienda, acompañadas de café o mate",
-    "equivalentes": ["medialunas"]
-}
-```
-
-```json
-{
-    "nombre": "sanguche de salame",
-    "definicion": "El sanguche de salame es un tipo de sandwich popular en Argentina y otros países de América Latina. Consiste en pan relleno con rodajas de salame, queso y algunas veces acompañado de verduras como lechuga y tomate.",
-    "categoria": "snacks",
-    "subcategoria": "sandwich",
-    "origen": "Argentina",
-    "tipo_de_coccion": "ninguno",
-    "ingredientes": ["pan", "salame", "queso", "lechuga", "tomate"],
-    "forma_de_servir": "se sirve como almuerzo rápido o merienda, acompañado de bebidas como gaseosas o cerveza",
-    "equivalentes": ["sandwich de salami"]
-}
-```
-
-```json
-{
-    "nombre": "café",
-    "definicion": "El café es una bebida aromática y estimulante preparada a partir de semillas tostadas y molidas de la planta de café. Es una de las bebidas más consumidas en todo el mundo.",
-    "categoria": "bebidas",
-    "subcategoria": "cafés",
-    "origen": "varios países productores de café",
-    "tipo_de_coccion": "infusión",
-    "ingredientes": ["café molido", "agua caliente"],
-    "forma_de_servir": "se puede servir caliente o frío, con o sin leche, azúcar o endulzantes",
-    "equivalentes": ["expreso", "cortado", "latte"]
-}
-```
-
-```json
-{
-    "nombre": "choripán",
-    "definicion": "El choripán es un popular bocadillo de origen argentino que consiste en un pan relleno con chorizo a la parrilla. Se suele acompañar con chimichurri, una salsa a base de perejil, ajo y vinagre.",
-    "categoria": "snacks",
-    "subcategoria": "sandwich",
-    "origen": "Argentina",
-    "tipo_de_coccion": "a la parrilla",
-    "ingredientes": ["pan", "chorizo", "chimichurri"],
-    "forma_de_servir": "se come como almuerzo rápido o en eventos informales, generalmente acompañado de cerveza",
+    "nombre": "Mango",
+    "definicion": "El mango es una fruta tropical de pulpa jugosa y dulce, con un sabor único y aromático. Es rico en vitamina C y fibra, y se consume fresco o en preparaciones como jugos, postres y salsas.",
+    "categoria": "Frutas",
+    "subcategoria": "Tropicales",
+    "origen": "India",
+    "tipo_de_coccion": "Sin cocinar",
+    "ingredientes": ["Mango"],
+    "forma_de_servir": "Se come fresco, pelado y cortado en cubos o en rodajas, o se utiliza en batidos, ensaladas y postres.",
     "equivalentes": []
 }
 ```
 
+3. empanada
 ```json
 {
-    "nombre": "milanesa de cerdo",
-    "definicion": "La milanesa de cerdo es una preparación culinaria muy popular en varios países de América Latina. Consiste en carne de cerdo empanizada y frita, lo que le otorga una textura crujiente por fuera y jugosa por dentro.",
-    "categoria": "carnes",
-    "subcategoria": "cerdo",
-    "origen": "varios países de América Latina",
-    "tipo_de_coccion": "frito",
-    "ingredientes": ["carne de cerdo", "pan rallado", "huevo", "aceite"],
-    "forma_de_servir": "se suele servir acompañada de papas fritas, arroz o ensaladas",
+    "nombre": "Empanada",
+    "definicion": "La empanada es un plato tradicional de la gastronomía latinoamericana y española, consistente en una masa rellena de diversos ingredientes como carne, pollo, queso, verduras o frutas. Se puede hornear, freír o cocinar a la parrilla.",
+    "categoria": "Plato principal",
+    "subcategoria": "Empanadas",
+    "origen": "España",
+    "tipo_de_coccion": "Horneado, frito o a la parrilla",
+    "ingredientes": ["Masa de empanada", "Relleno (carne, pollo, queso, verduras, etc.)"],
+    "forma_de_servir": "Se sirve caliente, como aperitivo o plato principal, acompañado de salsas y guarniciones.",
     "equivalentes": []
 }
-2025-03-21 16:04:36,103 - WARNING - Reintentando lote (1/3)
-2025-03-21 16:04:40,106 - INFO - Enviando solicitud para lote: ['facturas', 'sanguche de salame', 'café', 'choripán', 'milanesa de cerdo']
-2025-03-21 16:04:45,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:45,849 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:04:45,851 - INFO - Guardado progreso: 120/158 pictogramas
-2025-03-21 16:04:45,853 - INFO - Guardado progreso: 120/158 pictogramas
-2025-03-21 16:04:45,854 - INFO - Guardado progreso: 120/158 pictogramas
-2025-03-21 16:04:45,857 - INFO - Guardado progreso: 120/158 pictogramas
-2025-03-21 16:04:45,859 - INFO - Guardado progreso: 120/158 pictogramas
-2025-03-21 16:04:47,861 - INFO - Enviando solicitud para lote: ['milanesa de pollo', 'nachos', 'ensalada de fideos', 'arepa', 'plataninas']
-2025-03-21 16:04:56,573 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:04:56,585 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:04:58,586 - INFO - Enviando solicitud para lote: ['té frío', 'galletita salada', 'puré de vegetales', 'tortillas de bacalao', 'omelette']
-2025-03-21 16:05:04,648 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:05:04,651 - INFO - Lote procesado correctamente, 5 elementos
-2025-03-21 16:05:06,653 - INFO - Enviando solicitud para lote: ['torta frita', 'té de menta', 'chispas de chocolate', 'crutones', 'café con hielo']
-2025-03-21 16:05:14,368 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-03-21 16:05:14,373 - INFO - Lote procesado correctamente, 1 elementos
-2025-03-21 16:05:14,373 - ERROR - Error en el proceso principal: 'str' object has no attribute 'items'
-2025-03-21 16:05:14,373 - INFO - === FIN DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-21 19:37:27,175 - WARNING - Reintentando lote (1/3)
+2025-03-21 19:37:31,180 - INFO - Enviando solicitud para lote: ['pistacho']
+2025-03-21 19:37:32,804 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 19:37:32,807 - INFO - Lote procesado correctamente, 1 elementos
+2025-03-21 19:37:32,808 - INFO - Guardado progreso: 1/1 pictogramas
+2025-03-21 19:37:32,809 - INFO - Proceso completado. Se enriquecieron 1 pictogramas
+2025-03-21 19:37:32,809 - INFO - === FIN DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-24 15:24:05,972 - INFO - === INICIO DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-24 15:24:05,973 - INFO - Solicitando enriquecimiento para: ['albahaca']
+2025-03-24 15:24:07,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 15:24:09,940 - INFO - Archivo enriquecido actualizado: 5 pictogramas
+2025-03-24 15:24:09,940 - INFO - === FIN DEL PROCESO DE ENRIQUECIMIENTO ===

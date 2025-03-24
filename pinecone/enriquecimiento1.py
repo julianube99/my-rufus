@@ -10,11 +10,11 @@ load_dotenv()
 openai = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # === CONFIGURACIÓN ===
-INPUT_JSON = "items_claude_sin_nombres.json"
-OUTPUT_JSON = "pictogramas_enriquecidos.json"
+INPUT_JSON = "pictogramas_adicionales.json"
+OUTPUT_JSON = "pictogramas_enriquecidos2.json"
 LOTE = 5  # cantidad de pictogramas por lote
 SLEEP_TIME = 2  # segundos entre llamadas
-LOG_FILE = "proceso_enriquecimiento.log"
+LOG_FILE = "proceso_enriquecimiento.log"    
 
 def setup_logging():
     """Configura el registro de actividad en archivo."""
