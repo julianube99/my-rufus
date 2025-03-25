@@ -56,3 +56,8 @@
 2025-03-24 15:24:07,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-24 15:24:09,940 - INFO - Archivo enriquecido actualizado: 5 pictogramas
 2025-03-24 15:24:09,940 - INFO - === FIN DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-25 12:18:39,716 - INFO - === INICIO DEL PROCESO DE ENRIQUECIMIENTO ===
+2025-03-25 12:18:39,716 - INFO - Solicitando enriquecimiento para: ['pan de chocolate']
+2025-03-25 12:18:43,377 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 12:18:45,386 - INFO - Archivo enriquecido actualizado: 2 pictogramas
+2025-03-25 12:18:45,386 - INFO - === FIN DEL PROCESO DE ENRIQUECIMIENTO ===

@@ -1,13 +1,13 @@
 [
     {
-        "nombre": "albahaca",
-        "definicion": "Hierba aromática de hojas verdes y suaves, con un intenso aroma y sabor característico.",
-        "categoria": "vegetal",
-        "subcategoria": "hierba aromática",
-        "origen": "mediterráneo",
-        "tipo_de_coccion": "crudo",
-        "ingredientes": [],
-        "forma_de_servir": "picada finamente en ensaladas, salsas o como guarnición",
-        "equivalentes": ["perejil", "cilantro"]
+        "nombre": "pan de chocolate",
+        "definicion": "Pan dulce de masa esponjosa y suave, relleno con trozos de chocolate.",
+        "categoria": "panaderia",
+        "subcategoria": "pan dulce",
+        "origen": "Francia",
+        "tipo_de_coccion": "horneado",
+        "ingredientes": ["harina", "levadura", "azúcar", "mantequilla", "chocolate"],
+        "forma_de_servir": "Se sirve generalmente tibio, acompañado de una bebida caliente como café o chocolate caliente.",
+        "equivalentes": ["croissant de chocolate", "brioche de chocolate"]
     }
 ]
