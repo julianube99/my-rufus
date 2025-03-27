@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useRef } from "react";
 
 export default function ImageUploader() {
@@ -33,6 +35,10 @@ export default function ImageUploader() {
     setPreviewURL(url);
   };
 
+  const triggerFileInput = () => {
+    fileInputRef.current.click();
+  };
+
   const handleUpload = async () => {
     if (!selectedFile) {
       setStatus("⚠️ Por favor, seleccioná una imagen primero.");
@@ -48,7 +54,7 @@ export default function ImageUploader() {
       setServerResponse(null);
       setPictograms([]);
 
-      const response = await fetch("https://pulpo.website/webhook-test/send_image", {
+      const response = await fetch("https://pulpo.website/webhook/send_image", {
         method: "POST",
         body: formData,
       });
@@ -84,7 +90,7 @@ export default function ImageUploader() {
       }
 
       if (response.ok) {
-        setStatus(`✅ Imagen subida correctamente. Código: ${response.status}`);
+        setStatus(`✅ Imagen subida correctamente.`);
       } else {
         setStatus(`❌ Error al subir imagen. Código: ${response.status}`);
       }
@@ -112,22 +118,66 @@ export default function ImageUploader() {
   };
 
   return (
-    <div className="p-6 border rounded shadow max-w-6xl mx-auto space-y-6">
-      <h2 className="text-xl font-bold text-center">🧁 Subir Imagen</h2>
+    <div className="p-6 border rounded-lg shadow-md max-w-6xl mx-auto space-y-6 bg-white">
+      <h2 className="text-xl font-bold text-center">📷 Subir Imagen</h2>
 
       <div className="flex flex-col items-center">
-        <input
+        {/* Input de archivo oculto */}
+        <input 
           ref={fileInputRef}
+          type="file" 
+          className="hidden" 
           name="imagen"
-          type="file"
           accept="image/*"
           onChange={handleFileChange}
-          className="mx-auto mb-4"
         />
+        
+        {/* Área de selección de archivo mejorada */}
+        <div className="w-full max-w-xl mx-auto mb-6">
+          {!selectedFile ? (
+            <div 
+              onClick={triggerFileInput}
+              className="cursor-pointer border-2 border-dashed border-blue-300 bg-blue-50 hover:bg-blue-100 rounded-lg p-6 text-center transition-colors"
+            >
+              <div className="flex flex-col items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-blue-500 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg>
+                <div className="text-blue-600 font-medium text-lg mb-1">Seleccionar archivo</div>
+                <div className="text-sm text-gray-500">o arrastrá y soltá una imagen aquí</div>
+              </div>
+            </div>
+          ) : (
+            <div className="border rounded-lg p-4 bg-gray-50">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <div>
+                    <div className="font-medium">{selectedFile.name}</div>
+                    <div className="text-xs text-gray-500">
+                      {(selectedFile.size / 1024).toFixed(2)} KB • {selectedFile.type}
+                    </div>
+                  </div>
+                </div>
+                <button 
+                  onClick={resetForm}
+                  className="text-gray-500 hover:text-red-600 p-1"
+                  title="Eliminar archivo"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
 
         <div className="flex items-center gap-6">
           {previewURL && (
-            <div className="border rounded p-2">
+            <div className="border rounded p-2 shadow-sm">
               <img
                 src={previewURL}
                 alt="Vista previa"
@@ -136,27 +186,36 @@ export default function ImageUploader() {
             </div>
           )}
 
-          <div className="flex flex-col gap-2">
-            <button
-              onClick={handleUpload}
-              disabled={uploading || !selectedFile}
-              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {uploading ? "Subiendo..." : "Enviar imagen"}
-            </button>
-
+          <div className="flex flex-col gap-3">
             {selectedFile && (
               <button
-                onClick={resetForm}
-                className="px-4 py-2 border border-gray-300 rounded text-gray-600 hover:bg-gray-100"
+                onClick={handleUpload}
                 disabled={uploading}
+                className="px-5 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed font-medium min-w-[150px]"
               >
-                Cancelar
+                {uploading ? (
+                  <span className="flex items-center justify-center">
+                    <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Subiendo...
+                  </span>
+                ) : "Enviar imagen"}
+              </button>
+            )}
+
+            {!selectedFile && (
+              <button
+                onClick={triggerFileInput}
+                className="px-5 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-colors duration-150 font-medium min-w-[150px]"
+              >
+                Seleccionar imagen
               </button>
             )}
 
             {status && (
-              <p className={`text-sm mt-2 ${status.includes("✅") ? "text-green-600" : status.includes("❌") ? "text-red-600" : status.includes("⏳") ? "text-blue-600" : "text-yellow-600"}`}>
+              <p className={`text-sm ${status.includes("✅") ? "text-green-600" : status.includes("❌") ? "text-red-600" : status.includes("⏳") ? "text-blue-600" : "text-yellow-600"}`}>
                 {status}
               </p>
             )}
@@ -171,7 +230,7 @@ export default function ImageUploader() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {pictograms.map((picto, index) => (
-              <div key={index} className="border rounded-lg shadow p-3 flex flex-col">
+              <div key={index} className="border rounded-lg shadow-sm p-3 flex flex-col hover:shadow-md transition-shadow duration-200 bg-white">
                 <div className="flex items-center gap-4">
                   <img
                     src={`https://static.arasaac.org/pictograms/${picto.id}/${picto.id}_300.png`}
@@ -196,6 +255,13 @@ export default function ImageUploader() {
                     </div>
                   </div>
                 </div>
+                <div className="mt-3 text-xs text-gray-700 border-t pt-2">
+                  {picto.definicion ? (
+                    picto.definicion.substring(0, 150) + (picto.definicion.length > 150 ? "..." : "")
+                  ) : (
+                    "Sin definición disponible"
+                  )}
+                </div>
               </div>
             ))}
           </div>
@@ -206,7 +272,7 @@ export default function ImageUploader() {
       {serverResponse && pictograms.length === 0 && (
         <div className="mt-6">
           <h3 className="text-lg font-medium mb-2">Respuesta del servidor:</h3>
-          <div className="bg-gray-100 p-4 rounded overflow-auto text-left max-h-80">
+          <div className="bg-gray-100 p-4 rounded overflow-auto text-left max-h-80 border border-gray-300">
             <pre className="text-xs whitespace-pre-wrap break-words">
               {typeof serverResponse === 'object' 
                 ? JSON.stringify(serverResponse, null, 2) 
