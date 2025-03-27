@@ -1,9 +1,8 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
 
-export default function PictogramSearch() {
+export default function PictogramSearch({ navigateToBar }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [searching, setSearching] = useState(false);
   const [status, setStatus] = useState("");
@@ -13,7 +12,6 @@ export default function PictogramSearch() {
   const [isDragging, setIsDragging] = useState(false);
   const [menuTitle, setMenuTitle] = useState("Mi Menú Gastronómico");
   const menuAreaRef = useRef(null);
-  const router = useRouter(); // Para navegación
   
   // Estado para edición de elementos
   const [editingItem, setEditingItem] = useState(null);
@@ -290,8 +288,10 @@ export default function PictogramSearch() {
     localStorage.setItem('gastronomic_menu_items', JSON.stringify(menuItems));
     localStorage.setItem('gastronomic_menu_title', menuTitle);
     
-    // Redirigir a la página de construcción de frases
-    router.push("/bar");
+    // Llamar a la función de navegación proporcionada por el componente padre
+    if (navigateToBar) {
+      navigateToBar();
+    }
   };
 
   return (
