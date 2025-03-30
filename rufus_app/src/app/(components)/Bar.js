@@ -1,45 +1,21 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
-export default function Bar({ goBack }) {
-  const [menuItems, setMenuItems] = useState([]);
-  const [menuTitle, setMenuTitle] = useState("");
+export default function Bar({ goBack, menuItems, menuTitle }) {
   const [selectedItem, setSelectedItem] = useState(null);
 
-  // Cargar datos guardados al iniciar
+  // Solo cargamos el item seleccionado al iniciar
   useEffect(() => {
     try {
-      // Recuperar menú guardado
-      const savedMenu = localStorage.getItem('gastronomic_menu_items');
-      if (savedMenu) {
-        setMenuItems(JSON.parse(savedMenu));
-      } else {
-        // Si no hay menú guardado, redirigir a la página de búsqueda
-        if (goBack) {
-          goBack();
-        }
-      }
-      
-      // Recuperar título guardado
-      const savedTitle = localStorage.getItem('gastronomic_menu_title');
-      if (savedTitle) {
-        setMenuTitle(savedTitle);
-      }
-      
-      // Recuperar un item seleccionado anteriormente (si existe)
       const savedSelectedItem = localStorage.getItem('selected_bar_item');
       if (savedSelectedItem) {
-        try {
-          setSelectedItem(JSON.parse(savedSelectedItem));
-        } catch (e) {
-          console.error("Error al parsear el item seleccionado:", e);
-        }
+        setSelectedItem(JSON.parse(savedSelectedItem));
       }
     } catch (error) {
-      console.error("Error al cargar datos guardados:", error);
+      console.error("Error al cargar item seleccionado:", error);
     }
-  }, [goBack]);
+  }, []);
 
   // Guardar el item seleccionado cuando cambia
   useEffect(() => {
@@ -50,15 +26,12 @@ export default function Bar({ goBack }) {
     }
   }, [selectedItem]);
 
-  // Función para seleccionar un ítem al hacer clic
   const handleItemClick = (item) => {
     setSelectedItem(item);
-    localStorage.setItem('selected_bar_item', JSON.stringify(item));
   };
 
   const clearSelectedItem = () => {
     setSelectedItem(null);
-    localStorage.removeItem('selected_bar_item');
   };
 
   return (
@@ -70,38 +43,15 @@ export default function Bar({ goBack }) {
           </svg>
         </button>
         <h2 className="text-xl font-bold text-center">{menuTitle || ""}</h2>
-        <div className="w-5"></div> {/* Espacio para equilibrar el header */}
+        <div className="w-5" />
       </div>
 
-      {/* Secuencia de pictogramas fija con ítem seleccionado */}
+      {/* Frase con ítems fijos */}
       <div className="border rounded-lg p-4 bg-gray-50">
         <div className="flex items-center justify-center flex-wrap gap-4 sm:gap-6 md:gap-8 mb-6">
-          {/* Pictogramas fijos */}
-          <div className="flex flex-col items-center justify-center">
-            <img
-              src="/yo.png"
-              alt=""
-              className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain"
-            />
-          </div>
-          
-          <div className="flex flex-col items-center justify-center">
-            <img
-              src="/yo quiero.png"
-              alt=""
-              className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain"
-            />
-          </div>
-          
-          <div className="flex flex-col items-center justify-center">
-            <img
-              src="/comer.png"
-              alt=""
-              className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain"
-            />
-          </div>
-          
-          {/* Espacio para el ítem seleccionado */}
+          <img src="/yo.png" className="w-24 sm:w-32 md:w-40 object-contain" alt="yo" />
+          <img src="/yo quiero.png" className="w-24 sm:w-32 md:w-40 object-contain" alt="yo quiero" />
+          <img src="/comer.png" className="w-24 sm:w-32 md:w-40 object-contain" alt="comer" />
           <div className="flex flex-col items-center justify-center">
             {selectedItem ? (
               <div className="relative">
@@ -116,7 +66,7 @@ export default function Bar({ goBack }) {
                 <img
                   src={`https://static.arasaac.org/pictograms/${selectedItem.id}/${selectedItem.id}_300.png`}
                   alt=""
-                  className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain rounded-lg bg-white p-2 border-2 border-green-500 shadow-md"
+                  className="w-24 sm:w-32 md:w-40 object-contain rounded-lg bg-white p-2 border-2 border-green-500 shadow-md"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src = "https://via.placeholder.com/150?text=";
@@ -124,7 +74,7 @@ export default function Bar({ goBack }) {
                 />
               </div>
             ) : (
-              <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center bg-white">
+              <div className="w-24 sm:w-32 md:w-40 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center bg-white">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                 </svg>
@@ -136,40 +86,40 @@ export default function Bar({ goBack }) {
 
       {/* Lista de pictogramas guardados */}
       <div className="border rounded-lg p-4">
-  {menuItems.length === 0 ? (
-    <div className="flex justify-center items-center py-8">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-    </div>
-  ) : (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-      {menuItems.map((item) => (
-        <div 
-          key={item.menuId} 
-          className={`border rounded-lg p-3 bg-white cursor-pointer transition-all duration-200 ${
-            selectedItem && selectedItem.menuId === item.menuId 
-              ? 'ring-4 ring-blue-500 shadow-lg transform scale-105' 
-              : 'hover:shadow-md hover:border-blue-300'
-          }`}
-          onClick={() => handleItemClick(item)}
-        >
-          <div className="flex flex-col items-center">
-            <img
-              src={`https://static.arasaac.org/pictograms/${item.id}/${item.id}_300.png`}
-              alt=""
-              className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 object-contain" 
-              onError={(e) => {
-                e.target.onerror = null;
-                e.target.src = "https://via.placeholder.com/150?text=";
-              }}
-            />
+        {menuItems.length === 0 ? (
+          <div className="flex justify-center items-center py-8">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
           </div>
-        </div>
-      ))}
-    </div>
-  )}
-</div>
+        ) : (
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            {menuItems.map((item) => (
+              <div 
+                key={item.menuId} 
+                className={`border rounded-lg p-3 bg-white cursor-pointer transition-all duration-200 ${
+                  selectedItem && selectedItem.menuId === item.menuId 
+                    ? 'ring-4 ring-blue-500 shadow-lg transform scale-105' 
+                    : 'hover:shadow-md hover:border-blue-300'
+                }`}
+                onClick={() => handleItemClick(item)}
+              >
+                <div className="flex flex-col items-center">
+                  <img
+                    src={`https://static.arasaac.org/pictograms/${item.id}/${item.id}_300.png`}
+                    alt=""
+                    className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-44 lg:h-44 object-contain" 
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = "https://via.placeholder.com/150?text=";
+                    }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
 
       <style jsx global>{`
         @keyframes pulse {
@@ -183,7 +133,6 @@ export default function Bar({ goBack }) {
             box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
           }
         }
-        
         .selected-item {
           animation: pulse 1.5s infinite;
         }

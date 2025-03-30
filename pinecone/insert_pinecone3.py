@@ -6,106 +6,99 @@ import time
 from pinecone import Pinecone
 from dotenv import load_dotenv
 
-
-
 load_dotenv()
 
-# Configuración de credenciales (recomendado usar variables de entorno)
 PINECONE_API_KEY = os.environ.get("PINECONE_API")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-NAMESPACE = "pictogramas_ada_enriquecidos"  # Namespace específico para los pictogramas
-
-# Usar el índice existente
+NAMESPACE = "pictogramas_ada_enriquecidos2"
 INDEX_NAME = "rufusmenu"
-DIMENSION = 1536  # Dimensión para embeddings de OpenAI
+DIMENSION = 1536
 
-# Inicializar clientes con la nueva API de Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY)
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
 def conectar_a_indice(nombre_indice=None):
-    """Conecta al índice existente en Pinecone."""
     if nombre_indice is None:
         nombre_indice = INDEX_NAME
-        
     try:
-           
         print(f"📋 Conectando al índice existente {nombre_indice}...")
         index = pc.Index(nombre_indice)
-        
-        # Verificar conexión y mostrar estadísticas
         stats = index.describe_index_stats()
         print(f"✅ Conexión exitosa al índice {nombre_indice}")
         print(f"📊 Estadísticas actuales del índice:")
         print(f"    Total de vectores en el índice: {stats['total_vector_count']}")
-        
-        # Verificar si el namespace específico existe
         if NAMESPACE in stats.get('namespaces', {}):
             print(f"    Vectores en namespace '{NAMESPACE}': {stats['namespaces'][NAMESPACE]['vector_count']}")
         else:
             print(f"    Namespace '{NAMESPACE}' no encontrado o vacío")
-        
         return index
     except Exception as e:
         print(f"❌ Error al conectar con el índice: {str(e)}")
         raise
 
 def generar_embedding(texto: str) -> List[float]:
-    """Genera un embedding usando el modelo de OpenAI."""
     response = openai_client.embeddings.create(
         input=texto,
         model="text-embedding-ada-002"
     )
     return response.data[0].embedding
 
+def construir_texto_enriquecido(p: Dict[str, Any]) -> str:
+    nombres = p.get("nombre del pictograma", [])
+    if not isinstance(nombres, list):
+        nombres = [nombres]
+    nombres_str = ", ".join(nombres)
+
+    definicion = p.get("definicion", "")
+    ingredientes = ", ".join(p.get("ingredientes", [])) if p.get("ingredientes") else ""
+    forma_servir = p.get("forma_de_servir", "")
+    origen = p.get("origen", "")
+    coccion = p.get("tipo_de_coccion", "")
+    categoria = p.get("categoria", "")
+    subcategoria = p.get("subcategoria", "")
+    equivalentes = ", ".join(p.get("equivalentes", [])) if p.get("equivalentes") else ""
+
+    return (
+        f"Nombre del pictograma: {nombres_str}\n"
+        f"Definición: {definicion}\n"
+        f"Ingredientes: {ingredientes}\n"
+        f"Forma de servir: {forma_servir}\n"
+        f"Origen: {origen}\n"
+        f"Tipo de cocción: {coccion}\n"
+        f"Categoría: {categoria}\n"
+        f"Subcategoría: {subcategoria}\n"
+        f"Equivalentes: {equivalentes}"
+    )
+
 def insertar_pictogramas(datos: List[Dict[str, Any]], index):
-    """Inserta pictogramas en el índice dentro del namespace especificado (1 vector por pictograma)."""
     vectores = []
     total_pictogramas = len(datos)
-    
+
     print(f"🚀 Procesando {total_pictogramas} pictogramas para el namespace '{NAMESPACE}'...")
     print("-" * 60)
-    
+
     for idx, pictograma in enumerate(datos):
         if "id del pictograma de ARASAAC" not in pictograma:
             print(f"⚠️ Pictograma en índice {idx} no tiene ID de ARASAAC. Saltando...")
             continue
-        
+
         id_pictograma = str(pictograma["id del pictograma de ARASAAC"])
-        
-        # Asegurarse de que el nombre sea lista
-        nombres = pictograma.get("nombre del pictograma", [])
-        if not isinstance(nombres, list):
-            nombres = [str(nombres)]
-        
-        nombres_str = ", ".join(nombres)
-        definicion = pictograma.get("definicion", "")
-        
-        # Texto que se usará para generar el embedding
-        texto = f'nombre del pictograma: {nombres_str}'
-        if definicion:
-            texto += f'\ndefinicion: {definicion}'
-        
+        texto = construir_texto_enriquecido(pictograma)
+
         print(f"[{idx+1}/{total_pictogramas}] Generando embedding para ID {id_pictograma}")
         embedding = generar_embedding(texto)
 
-        # Construir metadatos válidos para Pinecone
         metadata = {
             "id": id_pictograma,
-            "nombre del pictograma": nombres_str,
+            "nombre del pictograma": ", ".join(pictograma.get("nombre del pictograma", [])) if isinstance(pictograma.get("nombre del pictograma"), list) else str(pictograma.get("nombre del pictograma", ""))
         }
 
-        # Campos string que deben ser convertidos si no son nulos
-        campos_extra = [
-            "definicion", "categoria", "subcategoria",
-            "origen", "tipo_de_coccion", "forma_de_servir"
-        ]
+        campos_extra = ["definicion", "categoria", "subcategoria", "origen", "tipo_de_coccion", "forma_de_servir"]
         for campo in campos_extra:
             valor = pictograma.get(campo)
             if valor is not None:
                 metadata[campo] = str(valor)
 
-        # Campos que son listas de strings
         for campo_lista in ["ingredientes", "equivalentes"]:
             valor = pictograma.get(campo_lista)
             if isinstance(valor, list):
@@ -113,28 +106,24 @@ def insertar_pictogramas(datos: List[Dict[str, Any]], index):
                 if lista_limpia:
                     metadata[campo_lista] = lista_limpia
 
-        # Crear vector final
         vectores.append({
             "id": id_pictograma,
             "values": embedding,
             "metadata": metadata
         })
-        
-        # Enviar en lotes de 100
+
         if len(vectores) >= 30:
-            print(f"🔄 Insertando lote de 100 vectores...")
+            print(f"🔄 Insertando lote de 30 vectores...")
             index.upsert(vectors=vectores, namespace=NAMESPACE)
             vectores = []
 
-    # Insertar lote final
     if vectores:
         print(f"🔄 Insertando lote final de {len(vectores)} vectores...")
         index.upsert(vectors=vectores, namespace=NAMESPACE)
-    
+
     print("🎉 Inserción finalizada.")
 
-
-
+# Resto del código no necesita cambios
 
 def buscar_pictograma(consulta: str, index_name=None, top_k: int = 5):
     """

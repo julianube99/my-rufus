@@ -1,23 +1,5 @@
 [
   {
-    "id del pictograma de ARASAAC": 1,
-    "nombre del pictograma": [
-      "lomito, lomo, sanguche de carne, sanguche de bife"
-    ],
-    "definicion": "El lomito es un corte de carne de ternera muy tierno y jugoso, proveniente de la parte baja de la espalda del animal. Se caracteriza por su sabor intenso y su textura suave.",
-    "categoria": "carnes",
-    "subcategoria": "vacuna",
-    "origen": "Argentina",
-    "tipo_de_coccion": "a la parrilla",
-    "ingredientes": [
-      "lomo de ternera"
-    ],
-    "forma_de_servir": "generalmente se sirve en sándwiches con diversos ingredientes como lechuga, tomate, mayonesa y jamón",
-    "equivalentes": [
-      "lomo de res"
-    ]
-  },
-  {
     "id del pictograma de ARASAAC": 31082,
     "nombre del pictograma": [
       "camarones fritos",
@@ -2915,5 +2897,64 @@
       "ingredientes": ["Mezcla de bayas como fresas, frambuesas, moras, arándanos, grosellas"],
       "forma_de_servir": "Frescos como snack, en ensaladas de frutas, postres, batidos, o como decoración de platos.",
       "equivalentes": ["Berries", "Frutas del bosque", "Bayas mixtas", "Red fruits"]
-    }
+    },
+    {
+      "id del pictograma de ARASAAC": 10357,
+      "nombre del pictograma": [
+        "pan de chocolate"
+      ],
+      "definicion": "Pan dulce de masa esponjosa y suave, relleno con trozos de chocolate.",
+      "categoria": "panaderia",
+      "subcategoria": "pan dulce",
+      "origen": "Francia",
+      "tipo_de_coccion": "horneado",
+      "ingredientes": [
+        "harina",
+        "levadura",
+        "azúcar",
+        "mantequilla",
+        "chocolate"
+      ],
+      "forma_de_servir": "Se sirve generalmente tibio, acompañado de una bebida caliente como café o chocolate caliente.",
+      "equivalentes": [
+        "croissant de chocolate",
+        "brioche de chocolate"
+      ]
+    },
+    {
+      "id del pictograma de ARASAAC": 8322,
+      "nombre": "Pistacho",
+      "definicion": "El pistacho es una semilla comestible de color verde, con sabor ligeramente dulce y salado. Es un fruto seco muy nutritivo y popular en todo el mundo.",
+      "categoria": "Frutos secos",
+      "subcategoria": "Frutos secos",
+      "origen": "Oriente Medio",
+      "tipo_de_coccion": "Tostado",
+      "ingredientes": ["Pistachos"],
+      "forma_de_servir": "Se sirve pelado y tostado, como snack o como ingrediente en postres y platos salados.",
+      "equivalentes": ["Pistache"]
+  },
+  {
+    "id del pictograma de ARASAAC": 16813,
+    "nombre": "Mango",
+    "definicion": "El mango es una fruta tropical de pulpa jugosa y dulce, con un sabor único y aromático. Es rico en vitamina C y fibra, y se consume fresco o en preparaciones como jugos, postres y salsas.",
+    "categoria": "Frutas",
+    "subcategoria": "Tropicales",
+    "origen": "India",
+    "tipo_de_coccion": "Sin cocinar",
+    "ingredientes": ["Mango"],
+    "forma_de_servir": "Se come fresco, pelado y cortado en cubos o en rodajas, o se utiliza en batidos, ensaladas y postres.",
+    "equivalentes": []
+},
+{
+  "id del pictograma de ARASAAC": 8310,
+  "nombre": "Empanada",
+  "definicion": "La empanada es un plato tradicional de la gastronomía latinoamericana y española, consistente en una masa rellena de diversos ingredientes como carne, pollo, queso, verduras o frutas. Se puede hornear, freír o cocinar a la parrilla.",
+  "categoria": "Plato principal",
+  "subcategoria": "Empanadas",
+  "origen": "España",
+  "tipo_de_coccion": "Horneado, frito o a la parrilla",
+  "ingredientes": ["Masa de empanada", "Relleno (carne, pollo, queso, verduras, etc.)"],
+  "forma_de_servir": "Se sirve caliente, como aperitivo o plato principal, acompañado de salsas y guarniciones.",
+  "equivalentes": []
+}
   ]

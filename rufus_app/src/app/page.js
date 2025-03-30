@@ -7,15 +7,21 @@ import Bar from './(components)/Bar';
 
 export default function Page() {
   const [activeComponent, setActiveComponent] = useState('imageUploader');
-  
-  // Cargar el último componente activo cuando se inicia la página
+  const [menuItems, setMenuItems] = useState([]);
+  const [menuTitle, setMenuTitle] = useState("Mi Menú Gastronómico");
+
   useEffect(() => {
     const lastComponent = localStorage.getItem('lastComponent');
     if (lastComponent) {
       setActiveComponent(lastComponent);
     }
-    
-    // Comprobar si hay un parámetro en la URL
+
+    const savedItems = localStorage.getItem("gastronomic_menu_items");
+    if (savedItems) setMenuItems(JSON.parse(savedItems));
+
+    const savedTitle = localStorage.getItem("gastronomic_menu_title");
+    if (savedTitle) setMenuTitle(savedTitle);
+
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('view')) {
       const view = urlParams.get('view');
@@ -24,22 +30,25 @@ export default function Page() {
       }
     }
   }, []);
-  
-  // Función para cambiar entre componentes
+
+  useEffect(() => {
+    localStorage.setItem("gastronomic_menu_items", JSON.stringify(menuItems));
+  }, [menuItems]);
+
+  useEffect(() => {
+    localStorage.setItem("gastronomic_menu_title", menuTitle);
+  }, [menuTitle]);
+
   const navigateTo = (component) => {
     setActiveComponent(component);
-    
-    // Guardar el componente en localStorage para recuperarlo después
     if (component !== 'bar') {
       localStorage.setItem('lastComponent', component);
     }
-    
-    // Actualizar la URL (opcional, para que coincida con el estado)
     const url = new URL(window.location);
     url.searchParams.set('view', component);
     window.history.pushState({}, '', url);
   };
-  
+
   return (
     <main className="container mx-auto py-6 px-2 sm:py-10 sm:px-4 space-y-10">
       {activeComponent !== 'bar' && (
@@ -67,10 +76,33 @@ export default function Page() {
         </div>
       )}
 
-      {/* Renderizar componente según el estado */}
-      {activeComponent === 'imageUploader' && <ImageUploader navigateToBar={() => navigateTo('bar')} />}
-      {activeComponent === 'pictogramSearch' && <PictogramSearch navigateToBar={() => navigateTo('bar')} />}
-      {activeComponent === 'bar' && <Bar goBack={() => navigateTo(localStorage.getItem('lastComponent') || 'pictogramSearch')} />}
+      {activeComponent === 'imageUploader' && (
+        <ImageUploader
+          navigateToBar={() => navigateTo('bar')}
+          menuItems={menuItems}
+          setMenuItems={setMenuItems}
+          menuTitle={menuTitle}
+          setMenuTitle={setMenuTitle}
+        />
+      )}
+
+      {activeComponent === 'pictogramSearch' && (
+        <PictogramSearch
+          navigateToBar={() => navigateTo('bar')}
+          menuItems={menuItems}
+          setMenuItems={setMenuItems}
+          menuTitle={menuTitle}
+          setMenuTitle={setMenuTitle}
+        />
+      )}
+
+      {activeComponent === 'bar' && (
+        <Bar
+          goBack={() => navigateTo(localStorage.getItem('lastComponent') || 'pictogramSearch')}
+          menuItems={menuItems}
+          menuTitle={menuTitle}
+        />
+      )}
     </main>
   );
 }
